@@ -49,15 +49,15 @@ DoorSpriteData: ; 1781
 	db $04,$08,$01,$01,$01,$01,$01
 
 Instructions1: ; 178c
-	db "Link e-Reader to Pokémon Ruby or \n"
-	db "Sapphire and select MYSTERY EVENTS\n"
-	db "on the game's main menu.\n"
+	db "Link e-Reader to Pokémon Emerald \n"
+	db "and select MYSTERY EVENTS on the\n"
+	db "game's main menu.\n"
 	db "Press the B Button to cancel.\0"
 
 Instructions2: ; 1808
 	db "Press the A Button on the Game Boy\n"
-	db "Advance containing Pokémon Ruby or\n"
-	db "Sapphire to begin the Battle Entry.\0"
+	db "Advance containing Pokémon Emerald\n"
+	db "to begin the Battle Entry.\0"
 
 BattleEntryInProcess: ; 1872
 	db "Battle Entry in Process...\0"
