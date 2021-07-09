@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, ZANGOOSE_IMMUNITY
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "ZANGOOSE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, SEVIPER_SHED_SKIN
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $00000080 ; ♂ Adamant
 	Text_EN "SEVIPER"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 30,31,14,15,15,14, MACHAMP_GUTS ; HP Electric 70
+	IVs 30,31,14,15,15,14, ABILITY1 ; HP Electric 70
 	PV $0000001C ; ♀ Adamant
 	Text_EN "MACHAMP"11
 	Friendship 255

@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 3,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,20,20,20,20, KINGDRA_SWIFT_SWIM
+	IVs 31,31,20,20,20,20, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "KINGDRA"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 3,0,0,0
 	EVs 252,6,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,20,20,20,20,31, HARIYAMA_THICK_FAT
+	IVs 31,20,20,20,20,31, ABILITY1
 	PV $00000080 ; ♂ Adamant
 	Text_EN "HARIYAMA"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 3,0,0,0
 	EVs 252,6,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,20,20,20,20,31, REGISTEEL_CLEAR_BODY
+	IVs 31,20,20,20,20,31, ABILITY1
 	PV $0000001C ; ⚲ Adamant
 	Text_EN "REGISTEEL"11
 	Friendship 255

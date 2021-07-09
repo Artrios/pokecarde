@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,6,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, CASCOON_SHED_SKIN
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "CASCOON"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,6,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, SILCOON_SHED_SKIN
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "SILCOON"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,6,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, MAGIKARP_SWIFT_SWIM
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000095 ; ♂ Quirky
 	Text_EN "MAGIKARP"11
 	Friendship 255

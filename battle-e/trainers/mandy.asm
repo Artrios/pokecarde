@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,6,252,252,0
 	OT_ID 00000, 00000
-	IVs 15,15,31,15,31,15, ALTARIA_NATURAL_CURE
+	IVs 15,15,31,15,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "ALTARIA"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,252,0,252,6,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, BRELOOM_EFFECT_SPORE
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "BRELOOM"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 15,31,15,15,15,31, SLAKING_TRUANT
+	IVs 15,31,15,15,15,31, ABILITY1
 	PV $000000DE ; ♂ Sassy
 	Text_EN "SLAKING"11
 	Friendship 255

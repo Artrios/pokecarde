@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,6,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, CRAWDAUNT_HYPER_CUTTER ; HP Dark 70
+	IVs 31,15,15,15,31,15, ABILITY1 ; HP Dark 70
 	PV $00000011 ; ♀ Quiet
 	Text_EN "CRAWDAUNT"11
 	Friendship 0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,6,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, ELECTRODE_STATIC
+	IVs 31,15,15,15,31,15, ABILITY2
 	PV $0000000A ; ⚲ Timid
 	Text_EN "ELECTRODE"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, BLAZIKEN_BLAZE
+	IVs 15,31,15,31,15,15, ABILITY1
 	PV $0000008C ; ♂ Modest
 	Text_EN "BLAZIKEN"11
 	Friendship 255

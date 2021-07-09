@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 0,15,15,31,31,15, XATU_SYNCHRONIZE
+	IVs 0,15,15,31,31,15, ABILITY1
 	PV $000000D7 ; ♂ Modest
 	Text_EN "XATU"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,255,0,0,255
 	OT_ID 00000, 00000
-	IVs 15,15,31,15,15,31, WOBBUFFET_SHADOW_TAG
+	IVs 15,15,31,15,15,31, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "WOBBUFFET"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,255,0,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, HOUNDOOM_FLASH_FIRE
+	IVs 15,15,15,31,31,15, ABILITY2
 	PV $000000D7 ; ♂ Modest
 	Text_EN "HOUNDOOM"11
 	Friendship 255

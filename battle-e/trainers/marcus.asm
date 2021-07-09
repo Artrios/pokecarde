@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,14,15,15,14,30, SKARMORY_KEEN_EYE ; HP Bug 70
+	IVs 31,14,15,15,14,30, ABILITY1 ; HP Bug 70
 	PV $00000094 ; ♂ Careful
 	Text_EN "SKARMORY"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, HERACROSS_GUTS
+	IVs 31,15,15,31,15,15, ABILITY2
 	PV $0000000D ; ♀ Jolly
 	Text_EN "HERACROSS"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,15, SWAMPERT_TORRENT
+	IVs 31,15,15,15,15,15, ABILITY1
 	PV $0000007F ; ♂ Brave
 	Text_EN "SWAMPERT"11
 	Friendship 255

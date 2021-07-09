@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
 	OT_ID 00000, 00000
-	IVs 15,15,31,15,15,31, WALREIN_THICK_FAT
+	IVs 15,15,31,15,15,31, ABILITY1
 	PV $00000013 ; ♀ Rash
 	Text_EN "WALREIN"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, PINSIR_HYPER_CUTTER
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $0000008A ; ♂ Jolly
 	Text_EN "PINSIR"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, RHYDON_ROCK_HEAD
+	IVs 31,31,15,15,15,15, ABILITY2
 	PV $00000016 ; ♀ Sassy
 	Text_EN "RHYDON"11
 	Friendship 255

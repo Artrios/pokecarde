@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,255,0,255,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, MAGIKARP_SWIFT_SWIM
+	IVs 15,31,15,31,15,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "MAGIKARP"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,255,0,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, LAIRON_STURDY
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "LAIRON"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,0,0,0,0,255
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, SHELGON_ROCK_HEAD
+	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "SHELGON"11
 	Friendship 255

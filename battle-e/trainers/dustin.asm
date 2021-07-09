@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, DODRIO_EARLY_BIRD
+	IVs 31,31,15,15,15,15, ABILITY2
 	PV $0000008A ; ♂ Jolly
 	Text_EN "DODRIO"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,0,0,252,252,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, MANECTRIC_STATIC
+	IVs 15,15,15,15,15,15, ABILITY1
 	PV $0000000E ; ♀ Naive
 	Text_EN "MANECTRIC"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, LINOONE_PICKUP
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $0000008B ; ♂ Naive
 	Text_EN "LINOONE"11
 	Friendship 255

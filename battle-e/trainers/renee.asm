@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, CASTFORM_FORECAST
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "CASTFORM"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, CASTFORM_FORECAST
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $000000DA ; ♂ Bashful
 	Text_EN "CASTFORM"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, CASTFORM_FORECAST
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "CASTFORM"11
 	Friendship 255

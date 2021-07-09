@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 20,20,31,20,20,31, CLAYDOL_LEVITATE
+	IVs 20,20,31,20,20,31, ABILITY1
 	PV $0000000F ; ⚲ Modest
 	Text_EN "CLAYDOL"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,252,0,6,0,252
 	OT_ID 00000, 00000
-	IVs 20,31,20,20,20,31, METAGROSS_CLEAR_BODY
+	IVs 20,31,20,20,20,31, ABILITY1
 	PV $0000001C ; ⚲ Adamant
 	Text_EN "METAGROSS"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,252,0,0,6
 	OT_ID 00000, 00000
-	IVs 20,20,31,31,20,20, REGICE_CLEAR_BODY
+	IVs 20,20,31,31,20,20, ABILITY1
 	PV $0000001E ; ⚲ Bold
 	Text_EN "REGICE"11
 	Friendship 255

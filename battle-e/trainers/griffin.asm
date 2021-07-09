@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,252,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, BANETTE_INSOMNIA
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $00000085 ; ♂ Impish
 	Text_EN "BANETTE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,252,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, ABSOL_PRESSURE
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "ABSOL"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,252,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, DUSCLOPS_PRESSURE
+	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DUSCLOPS"11
 	Friendship 255

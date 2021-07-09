@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, KINGDRA_SWIFT_SWIM
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "KINGDRA"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,0,255,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, LUDICOLO_RAIN_DISH
+	IVs 31,15,31,15,15,15, ABILITY2
 	PV $000000E9 ; ♂ Impish
 	Text_EN "LUDICOLO"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, MANECTRIC_STATIC
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "MANECTRIC"11
 	Friendship 255

@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,252,0,252,6,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,15,15, FLYGON_LEVITATE
+	IVs 15,15,15,31,15,15, ABILITY1
 	PV $00000090 ; ♂ Rash
 	Text_EN "FLYGON"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, RHYDON_ROCK_HEAD
+	IVs 31,31,15,15,15,15, ABILITY2
 	PV $0000001B ; ♀ Brave
 	Text_EN "RHYDON"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, SWAMPERT_TORRENT
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $0000007E ; ♂ Lonely
 	Text_EN "SWAMPERT"11
 	Friendship 255

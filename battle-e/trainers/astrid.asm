@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,0,255,0,0,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, MAWILE_INTIMIDATE
+	IVs 15,15,15,15,15,15, ABILITY2
 	PV $0000001F ; ♀ Docile
 	Text_EN "MAWILE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, MINUN_MINUS
+	IVs 15,15,15,15,15,15, ABILITY1
 	PV $000000D7 ; ♂ Modest
 	Text_EN "MINUN"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 170,0,0,170,170,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, SHIFTRY_EARLY_BIRD
+	IVs 15,15,15,15,15,15, ABILITY2
 	PV $000000D2 ; ♂ Timid
 	Text_EN "SHIFTRY"11
 	Friendship 255

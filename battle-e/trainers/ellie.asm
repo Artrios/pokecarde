@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, CASTFORM_FORECAST
+	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CASTFORM"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, KOFFING_LEVITATE
+	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000008F ; ♂ Bashful
 	Text_EN "KOFFING"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, CHIMECHO_LEVITATE
+	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CHIMECHO"11
 	Friendship 255

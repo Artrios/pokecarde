@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,0,0,252,252,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, PIKACHU_STATIC
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "PIKACHU"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, GOLEM_STURDY
+	IVs 31,15,15,15,15,31, ABILITY2
 	PV $0000001B ; ♀ Brave
 	Text_EN "GOLEM"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,252,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, GENGAR_LEVITATE
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $00000087 ; ♂ Timid
 	Text_EN "GENGAR"11
 	Friendship 255

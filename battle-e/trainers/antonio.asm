@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,255,0,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, DONPHAN_STURDY
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "DONPHAN"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,255,0,255,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, SKARMORY_STURDY
+	IVs 15,31,15,31,15,15, ABILITY2
 	PV $0000001C ; ♀ Adamant
 	Text_EN "SKARMORY"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,252,0,6,252,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,31,15, HOUNDOOM_EARLY_BIRD
+	IVs 15,31,15,31,31,15, ABILITY1
 	PV $000000E1 ; ♂ Hardy
 	Text_EN "HOUNDOOM"11
 	Friendship 255

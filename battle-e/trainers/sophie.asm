@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,255,0,255,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, DELCATTY_CUTE_CHARM
+	IVs 15,31,15,31,15,15, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DELCATTY"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, LUVDISC_SWIFT_SWIM
+	IVs 15,15,15,31,31,15, ABILITY1
 	PV $000000E7 ; ♂ Docile
 	Text_EN "LUVDISC"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,31,31,15, KIRLIA_TRACE
+	IVs 15,15,15,31,31,15, ABILITY2
 	PV $0000000F ; ♀ Modest
 	Text_EN "KIRLIA"11
 	Friendship 255

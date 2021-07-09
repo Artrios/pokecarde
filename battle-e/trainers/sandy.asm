@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, HERACROSS_GUTS
+	IVs 15,31,15,31,15,15, ABILITY2
 	PV $00000080 ; ♂ Adamant
 	Text_EN "HERACROSS"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,252,6,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, GIRAFARIG_INNER_FOCUS
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $00000018 ; ♀ Quirky
 	Text_EN "GIRAFARIG"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, DODRIO_EARLY_BIRD
+	IVs 15,31,15,31,15,15, ABILITY2
 	PV $00000080 ; ♂ Adamant
 	Text_EN "DODRIO"11
 	Friendship 255

@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,252,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, WYNAUT_SHADOW_TAG
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "WYNAUT"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,6,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, WHISMUR_SOUNDPROOF
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $0000001F ; ♀ Docile
 	Text_EN "WHISMUR"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, PIKACHU_STATIC
+	IVs 31,15,15,31,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "PIKACHU"11
 	Friendship 255

@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,14,15,14,14,30, MAGIKARP_SWIFT_SWIM
+	IVs 31,14,15,14,14,30, ABILITY1
 	PV $00000085 ; ♂ Impish
 	Text_EN "MAGIKARP"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, MUDKIP_TORRENT
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "MUDKIP"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, DUSKULL_LEVITATE
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $0000001B ; ♀ Brave
 	Text_EN "DUSKULL"11
 	Friendship 255

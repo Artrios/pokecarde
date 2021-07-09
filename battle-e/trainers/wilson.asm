@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,0,252,6
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, GLOOM_CHLOROPHYLL
+	IVs 31,15,15,15,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "GLOOM"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, WURMPLE_SHIELD_DUST
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "WURMPLE"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, CLAMPERL_SHELL_ARMOR
+	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CLAMPERL"11
 	Friendship 255

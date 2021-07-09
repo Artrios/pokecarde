@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,255,0,0,255
 	OT_ID 00000, 00000
-	IVs 15,31,15,15,31,15, CLAYDOL_LEVITATE
+	IVs 15,31,15,15,31,15, ABILITY1
 	PV $00000020 ; ⚲ Relaxed
 	Text_EN "CLAYDOL"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,0,0,0,255,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,0, CHIMECHO_LEVITATE
+	IVs 31,15,15,15,31,0, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CHIMECHO"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,255,0,0,0,255
 	OT_ID 00000, 00000
-	IVs 15,31,15,15,31,15, WEEZING_LEVITATE
+	IVs 15,31,15,15,31,15, ABILITY1
 	PV $000000D9 ; ♂ Quiet
 	Text_EN "WEEZING"11
 	Friendship 255

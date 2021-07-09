@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, MACHAMP_GUTS
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $000000E7 ; ♂ Docile
 	Text_EN "MACHAMP"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, MAGNETON_STURDY
+	IVs 31,15,15,15,31,15, ABILITY2
 	PV $0000000C ; ⚲ Serious
 	Text_EN "MAGNETON"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, BLASTOISE_TORRENT
+	IVs 31,15,15,15,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "BLASTOISE"11
 	Friendship 255

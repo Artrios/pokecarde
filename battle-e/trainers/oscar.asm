@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,252,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, ELECTRODE_STATIC
+	IVs 31,15,15,15,31,15, ABILITY2
 	PV $00000013 ; ⚲ Rash
 	Text_EN "ELECTRODE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 15,31,15,31,15,15, DODRIO_EARLY_BIRD
+	IVs 15,31,15,31,15,15, ABILITY2
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DODRIO"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,252,0
 	OT_ID 00000, 00000
-	IVs 31,15,31,15,15,15, GENGAR_LEVITATE
+	IVs 31,15,31,15,15,15, ABILITY1
 	PV $0000008C ; ♂ Modest
 	Text_EN "GENGAR"11
 	Friendship 255

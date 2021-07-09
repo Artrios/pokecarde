@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 255,100,0,155,0,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, SABLEYE_KEEN_EYE
+	IVs 15,15,15,15,15,15, ABILITY1
 	PV $000000CE ; ♂ Docile
 	Text_EN "SABLEYE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, PLUSLE_PLUS
+	IVs 15,15,15,15,15,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "PLUSLE"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 170,0,0,170,170,0
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,15,15, LUDICOLO_SWIFT_SWIM
+	IVs 15,15,15,15,15,15, ABILITY1
 	PV $000000D2 ; ♂ Timid
 	Text_EN "LUDICOLO"11
 	Friendship 255

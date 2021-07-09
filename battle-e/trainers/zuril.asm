@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,252,0,252,0,0
 	OT_ID 00000, 00000
-	IVs 31,20,20,31,20,20, FLYGON_LEVITATE
+	IVs 31,20,20,31,20,20, ABILITY1
 	PV $0000000C ; ♀ Serious
 	Text_EN "FLYGON"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,20,20,20,20, WHISCASH_OBLIVIOUS
+	IVs 31,31,20,20,20,20, ABILITY1
 	PV $00000095 ; ♂ Quirky
 	Text_EN "WHISCASH"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,0,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,20,20,20,20,31, REGIROCK_CLEAR_BODY
+	IVs 31,20,20,20,20,31, ABILITY1
 	PV $0000001B ; ⚲ Brave
 	Text_EN "REGIROCK"11
 	Friendship 255

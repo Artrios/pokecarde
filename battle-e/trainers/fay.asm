@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,252,0,6,252,0
 	OT_ID 00000, 00000
-	IVs 20,31,20,20,31,20, ALTARIA_NATURAL_CURE
+	IVs 20,31,20,20,31,20, ABILITY1
 	PV $000000E7 ; ♂ Docile
 	Text_EN "ALTARIA"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,6,252,252
 	OT_ID 00000, 00000
-	IVs 31,20,20,20,31,20, STARMIE_NATURAL_CURE
+	IVs 31,20,20,20,31,20, ABILITY2
 	PV $0000000F ; ⚲ Modest
 	Text_EN "STARMIE"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 6,0,252,0,252,0
 	OT_ID 00000, 00000
-	IVs 20,20,31,20,31,20, REGICE_CLEAR_BODY
+	IVs 20,20,31,20,31,20, ABILITY1
 	PV $00000020 ; ⚲ Relaxed
 	Text_EN "REGICE"11
 	Friendship 255

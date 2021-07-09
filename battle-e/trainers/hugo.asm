@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,0,252,6
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,31,15, WALREIN_THICK_FAT
+	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000008E ; ♂ Quiet
 	Text_EN "WALREIN"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,252,0,0,0,6
 	OT_ID 00000, 00000
-	IVs 31,31,15,15,15,15, HARIYAMA_THICK_FAT
+	IVs 31,31,15,15,15,15, ABILITY1
 	PV $0000007F ; ♂ Brave
 	Text_EN "HARIYAMA"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,6,252,252
 	OT_ID 00000, 00000
-	IVs 15,15,15,15,31,31, GRUMPIG_THICK_FAT
+	IVs 15,15,15,15,31,31, ABILITY1
 	PV $00000018 ; ♀ Quirky
 	Text_EN "GRUMPIG"11
 	Friendship 255

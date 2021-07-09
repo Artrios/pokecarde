@@ -19,7 +19,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,6,252,0,0,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,15, ELECTRODE_STATIC
+	IVs 31,15,15,15,15,15, ABILITY2
 	PV $00000080 ; ⚲ Adamant
 	Text_EN "ELECTRODE"11
 	Friendship 255
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
 	OT_ID 00000, 00000
-	IVs 31,15,15,15,15,31, SOLROCK_LEVITATE
+	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000007F ; ⚲ Brave
 	Text_EN "SOLROCK"11
 	Friendship 255
@@ -43,7 +43,7 @@ INCLUDE "trainers/macros.asm"
 	PP_Ups 0,0,0,0
 	EVs 252,0,0,252,6,0
 	OT_ID 00000, 00000
-	IVs 31,15,15,31,15,15, SHIFTRY_EARLY_BIRD
+	IVs 31,15,15,31,15,15, ABILITY2
 	PV $00000080 ; ♂ Adamant
 	Text_EN "SHIFTRY"11
 	Friendship 255
