@@ -3,6 +3,7 @@ INCLUDE "../constants/abilities.asm"
 INCLUDE "../constants/easychat.asm"
 INCLUDE "../constants/items.asm"
 INCLUDE "../constants/moves.asm"
+INCLUDE "../constants/natures.asm"
 INCLUDE "../constants/pokemon.asm"
 INCLUDE "../constants/trainerclasses.asm"
 
