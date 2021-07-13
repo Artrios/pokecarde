@@ -57,6 +57,11 @@ battletrainer-%.tx: battletrainer.asm prologue-%.bin
 	rgblink -o $@ $<
 08-A%.z80: 08-A%.gbc
 	python ../scripts/stripgbc.py $< $@
+08-A%.vpk: 08-A%.z80
+	./nevpk -c -i $< -o $@
+08-A%.raw: 08-A%.vpk
+	./nedcmake -i $< -o $@ -type 1 -region 1
+	mv $@-01.raw $@
 
 
 enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
@@ -69,8 +74,13 @@ enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
 	rgblink -o $@ $<
 08-K%.z80: 08-K%.gbc
 	python ../scripts/stripgbc.py $< $@
+08-K%.vpk: 08-K%.z80
+	./nevpk -c -i $< -o $@
+08-K%.raw: 08-K%.vpk
+	./nedcmake -i $< -o $@ -type 1 -region 1 -raw
+	mv $@-01.raw $@
 
 clean:
-	rm -f *.z80 *.tx *.o *.gbc *.bin \
+	rm -f *.z80 *.tx *.o *.gbc *.bin *.raw\
 	trainers/*.tx trainers/*.o trainers/*.gbc trainers/*.bin trainers/*.mev \
 	berries/*.tx berries/*.o berries/*.gbc berries/*.bin berries/*.mev
