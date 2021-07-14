@@ -81,6 +81,6 @@ enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
 	mv $@-01.raw $@
 
 clean:
-	rm -f *.z80 *.tx *.o *.gbc *.bin *.raw\
+	rm -f *.z80 *.tx *.o *.gbc *.bin *.raw \
 	trainers/*.tx trainers/*.o trainers/*.gbc trainers/*.bin trainers/*.mev \
 	berries/*.tx berries/*.o berries/*.gbc berries/*.bin berries/*.mev
