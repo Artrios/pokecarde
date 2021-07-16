@@ -4,7 +4,7 @@ SERIES_1_BERRIES = chilan drash eggant nutpea pumkin strib
 #PROMO_EN_TRAINERS = astrid nils
 
 all: series_1 verify
-series_1: $(SERIES_1_TRAINERS:%=trainers/%-EN.mev) $(SERIES_1_BERRIES:%=berries/%-EN.mev) $(SERIES_1_NUMS:%=08-%-EN.z80)
+series_1: $(SERIES_1_TRAINERS:%=trainers/%-EN.mev) $(SERIES_1_BERRIES:%=berries/%-EN.mev) $(SERIES_1_NUMS:%=08-%-EN.raw)
 verify:
 	md5sum --check battle-e.md5
 
