@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class BEAUTY
 	BT_Floor MOSSDEEP
 	Text_EN "ELLIE"8
+	Text_JP "リエ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I_AM,ON,A_LITTLE,DIET,_AND,HUNGRY
 	Win_EN   THIS,DIET,IS,REALLY,WORKING,ME
 	Loss_EN  SHOULD,I,EAT,LESS,_OR,MORE
+
+	Intro_JP $120f, $1a1a, $0c00, $0e1b, $0c06, $2019
+	Win_JP $1a1a, $1034, $1003, $1401, $0c3d, $ffff
+	Loss_JP $0c26, $1a1a, $ffff, $122d, $1004, $0c03
 
 	Pokemon CASTFORM
 	Holds HEART_SCALE
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CASTFORM"11
+	Text_JP "ポワルン"11
 	Friendship 255
 
 	Pokemon KOFFING
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000008F ; ♂ Bashful
 	Text_EN "KOFFING"11
+	Text_JP "ドガース"11
 	Friendship 255
 
 	Pokemon CHIMECHO
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CHIMECHO"11
+	Text_JP "チリーン"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

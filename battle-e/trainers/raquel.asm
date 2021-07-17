@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class COOLTRAINER_F
 	BT_Floor MOSSDEEP
 	Text_EN "RAQUEL"8
+	Text_JP "トシコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YOU_RE,NOT,_A,MATCH,TO_ME,_ELIP
 	Win_EN   I,ALWAYS,WIN,WITH,THIS,COLOR
 	Loss_EN  MY,DREAM,NEVER,GOES,AWAY,_ELIP
+
+	Intro_JP $0a48, $0a00, $1628, $0e28, $143b, $103e
+	Win_JP $1c06, $060b, $0e08, $1e0b, $0408, $1228
+	Loss_JP $0408, $1603, $0e0c, $142f, $1827, $0c06
 
 	Pokemon CRAWDAUNT
 	Holds BLACKGLASSES
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1 ; HP Dark 70
 	PV $00000011 ; ♀ Quiet
 	Text_EN "CRAWDAUNT"11
+	Text_JP "シザリガー"11
 	Friendship 0
 
 	Pokemon ELECTRODE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY2
 	PV $0000000A ; ⚲ Timid
 	Text_EN "ELECTRODE"11
+	Text_JP "マルマイン"11
 	Friendship 255
 
 	Pokemon BLAZIKEN
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, ABILITY1
 	PV $0000008C ; ♂ Modest
 	Text_EN "BLAZIKEN"11
+	Text_JP "バシャーモ"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class POKEFAN_F
 	BT_Floor MOSSDEEP
 	Text_EN "MAGGIE"8
+	Text_JP "ミスズ"8
 	OT_ID 00000, 00000
 
 	Intro_EN LOOK,AT,MY,CUTE,POKEMON,_EX
 	Win_EN   MY,POKEMON,ARE,SO,CUTE,_EX
 	Loss_EN  YOU,BETTER,CARE,FOR,MY,POKEMON
+
+	Intro_JP $1643, $0c00, $ffff, $0a48, $0418, $020e
+	Win_JP $0a45, $1034, $020e, $0418, $0418, $0c00
+	Loss_JP $0c0c, $0c33, $0c00, $0e36, $1616, $103e
 
 	Pokemon WYNAUT
 	Holds LUM_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "WYNAUT"11
+	Text_JP "ソーナノ"11
 	Friendship 255
 
 	Pokemon WHISMUR
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, ABILITY1
 	PV $0000001F ; ♀ Docile
 	Text_EN "WHISMUR"11
+	Text_JP "ゴニョニョ"11
 	Friendship 255
 
 	Pokemon PIKACHU
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "PIKACHU"11
+	Text_JP "ピカチュウ"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

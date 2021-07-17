@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PICNICKER
 	BT_Floor MOSSDEEP
 	Text_EN "RENEE"8
+	Text_JP "モトコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN MY,NATURE,IS,_ELIP,STATIC,_EX
 	Win_EN   MY,FEELING,IS,NOW,LIKE,_SUNNY_DAY
 	Loss_EN  MY,FEELING,IS,NOW,LIKE,DRIZZLE
+
+	Intro_JP $0a48, $0206, $0c06, $0444, $103b, $0c03
+	Win_JP $1c07, $1034, $0e09, $26f1, $103b, $0c03
+	Loss_JP $1c07, $1034, $0e09, $0404, $103b, $0c03
 
 	Pokemon CASTFORM
 	Holds PETAYA_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "CASTFORM"11
+	Text_JP "ポワルン"11
 	Friendship 255
 
 	Pokemon CASTFORM
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, ABILITY1
 	PV $000000DA ; ♂ Bashful
 	Text_EN "CASTFORM"11
+	Text_JP "ポワルン"11
 	Friendship 255
 
 	Pokemon CASTFORM
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "CASTFORM"11
+	Text_JP "ポワルン"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

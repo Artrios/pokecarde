@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PKMN_BREEDER_M
 	BT_Floor MOSSDEEP
 	Text_EN "WILSON"8
+	Text_JP "シンジ"8
 	OT_ID 00000, 00000
 
 	Intro_EN LISTEN,_EX,I,CARE,ABOUT,POKEMON
 	Win_EN   WHAT,IS,THE,NEXT,NORMAL,_QU
 	Loss_EN  I,CHALLENGE,YOU,AFTER,THIS,NORMAL
+
+	Intro_JP $1440, $1617, $0c00, $020e, $1225, $1016
+	Win_JP $1e1b, $1609, $0204, $1628, $1034, $1005
+	Loss_JP $1c1c, $0204, $1621, $061f, $1011, $0c00
 
 	Pokemon GLOOM
 	Holds SUN_STONE
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "GLOOM"11
+	Text_JP "クサイハナ"11
 	Friendship 255
 
 	Pokemon WURMPLE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "WURMPLE"11
+	Text_JP "ケムッソ"11
 	Friendship 255
 
 	Pokemon CLAMPERL
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "CLAMPERL"11
+	Text_JP "パールル"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

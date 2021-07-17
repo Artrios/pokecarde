@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PKMN_BREEDER_F
 	BT_Floor MOSSDEEP
 	Text_EN "CANDICE"8
+	Text_JP "モモコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN WE,ARE,READY,FOR,MORE,_GROWTH
 	Win_EN   WE,WILL,TRY,MORE,FOR,_GROWTH
 	Loss_EN  SORRY,PARTNER,I,WILL,_HARDEN,MYSELF
+
+	Intro_JP $120f, $1c25, $244a, $1621, $140f, $1034
+	Win_JP $0a45, $0e36, $120f, $244a, $1628, $0c3d
+	Loss_JP $080d, $0a3d, $0e36, $244a, $1628, $0e08
 
 	Pokemon MAGIKARP
 	Holds SILK_SCARF
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,14,15,14,14,30, ABILITY1
 	PV $00000085 ; ♂ Impish
 	Text_EN "MAGIKARP"11
+	Text_JP "コイキング"11
 	Friendship 255
 
 	Pokemon MUDKIP
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, ABILITY1
 	PV $00000083 ; ♂ Docile
 	Text_EN "MUDKIP"11
+	Text_JP "ミズゴロウ"11
 	Friendship 255
 
 	Pokemon DUSKULL
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, ABILITY1
 	PV $0000001B ; ♀ Brave
 	Text_EN "DUSKULL"11
+	Text_JP "ヨマワル"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

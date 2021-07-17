@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class GUITARIST
 	BT_Floor MOSSDEEP
 	Text_EN "HAYDEN"8
+	Text_JP "シュウキチ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YEAH,_EX,COOL,_EXPLOSION,SONGS,_EX_EX
 	Win_EN   YEAH,_EX_EX,INCREDIBLE,_EXPLOSION,SONGS,_EX_EX
 	Loss_EN  NO,_EX,MY,SONGS,AREN_T,POPULAR
+
+	Intro_JP $2805, $0c00, $2699, $2208, $1013, $0c01
+	Win_JP $2805, $0c01, $0a14, $2806, $2699, $0c01
+	Loss_JP $081d, $0c00, $0a14, $1034, $2208, $201f
 
 	Pokemon ELECTRODE
 	Holds MAGNET
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,15, ABILITY2
 	PV $00000080 ; ⚲ Adamant
 	Text_EN "ELECTRODE"11
+	Text_JP "マルマイン"11
 	Friendship 255
 
 	Pokemon SOLROCK
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000007F ; ⚲ Brave
 	Text_EN "SOLROCK"11
+	Text_JP "ソルロック"11
 	Friendship 255
 
 	Pokemon SHIFTRY
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, ABILITY2
 	PV $00000080 ; ♂ Adamant
 	Text_EN "SHIFTRY"11
+	Text_JP "ダーテング"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

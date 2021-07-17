@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class SWIMMER_F
 	BT_Floor MOSSDEEP
 	Text_EN "ANNIE"8
+	Text_JP "チハル"8
 	OT_ID 00000, 00000
 
 	Intro_EN HERE_I_COME,_EX,GO,MY,WATER,POKEMON
 	Win_EN   IT_S,_A,GREAT,POKEMON,ISN_T,IT
 	Loss_EN  DON_T,YOU,KNOW,THIS,POKEMON,_QU
+
+	Intro_JP $1421, $045f, $020e, $0804, $0c01, $ffff
+	Win_JP $0c2d, $1e0b, $020e, $1214, $1004, $0c03
+	Loss_JP $0814, $1032, $0c00, $1421, $020e, $102e
 
 	Pokemon MACHAMP
 	Holds BLACK_BELT
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, ABILITY1
 	PV $000000E7 ; ♂ Docile
 	Text_EN "MACHAMP"11
+	Text_JP "カイリキー"11
 	Friendship 255
 
 	Pokemon MAGNETON
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY2
 	PV $0000000C ; ⚲ Serious
 	Text_EN "MAGNETON"11
+	Text_JP "レアコイル"11
 	Friendship 255
 
 	Pokemon BLASTOISE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1
 	PV $00000012 ; ♀ Bashful
 	Text_EN "BLASTOISE"11
+	Text_JP "カメックス"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

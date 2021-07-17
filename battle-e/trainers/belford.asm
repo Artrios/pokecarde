@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class COOLTRAINER_M
 	BT_Floor 5
 	Text_EN "BELFORD"8
+	Text_JP "ミスケ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YOU,WILL,NOT,LIKE,MY,ATTACK
 	Win_EN   TOO,BAD,YOU,DON_T,LIKE,POISON
 	Loss_EN  WHAT,_A,POKEMON,TRAINER,I,SURRENDER
+
+	Intro_JP $0c2b, $0a1a, $1e0b, $0612, $140e, $1005
+	Win_JP $121b, $1015, $0c00, $043c, $140e, $1021
+	Loss_JP $1424, $020b, $1015, $0c06, $0635, $103e
 
 	Pokemon DUSCLOPS
 	Holds LEFTOVERS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,31,20,20,20, ABILITY1
 	PV $00000094 ; ♂ Careful
 	Text_EN "DUSCLOPS"11
+	Text_JP "サマヨール"11
 	Friendship 255
 
 	Pokemon CROBAT
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,20,20,20,20, ABILITY1
 	PV $0000001C ; ♀ Adamant
 	Text_EN "CROBAT"11
+	Text_JP "クロバット"11
 	Friendship 255
 
 	Pokemon REGISTEEL
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,20,20,20,31, ABILITY1
 	PV $0000001E ; ⚲ Bold
 	Text_EN "REGISTEEL"11
+	Text_JP "レジスチル"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

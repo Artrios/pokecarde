@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class COOLTRAINER_M
 	BT_Floor 5
 	Text_EN "FUEGO"8
+	Text_JP "ヒエイ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I,HAVE,_A,FEELING,YOU,CAN_T_WIN
 	Win_EN   COLLECT,ICE,STEEL,_AND,ROCK,_EX
 	Loss_EN  ICE,STEEL,_AND,ROCK,DON_T,WORK
+
+	Intro_JP $0a1a, $0e28, $0631, $1211, $103e, $ffff
+	Win_JP $0420, $0446, $040a, $1606, $1622, $0c00
+	Loss_JP $0420, $0446, $040a, $100b, $1427, $1005
 
 	Pokemon GLALIE
 	Holds SCOPE_LENS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,31,20,20,20, ABILITY1
 	PV $00000096 ; ♂ Hardy
 	Text_EN "GLALIE"11
+	Text_JP "オニゴーリ"11
 	Friendship 255
 
 	Pokemon SKARMORY
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,20,20,20,31, ABILITY1
 	PV $00000017 ; ♀ Careful
 	Text_EN "SKARMORY"11
+	Text_JP "エアームド"11
 	Friendship 255
 
 	Pokemon REGIROCK
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,20,20,20,20, ABILITY1
 	PV $0000001B ; ⚲ Brave
 	Text_EN "REGIROCK"11
+	Text_JP "レジロック"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

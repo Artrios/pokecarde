@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class BEAUTY
 	BT_Floor 19
 	Text_EN "FAY"8
+	Text_JP "セイラ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I,CAN_T,WAIT,TO,BATTLE,_EX_EX
 	Win_EN   _ICE_BEAM,WAS,TOO,COLD,FOR,YOU
 	Loss_EN  _ICY_WIND,DIDN_T,BEAT,YOUR,HOT,SPIRIT
+
+	Intro_JP $1c28, $0618, $0e1d, $201a, $1041, $0c00
+	Win_JP $263a, $0e28, $201a, $1e11, $1021, $ffff
+	Loss_JP $1400, $0618, $24c4, $0e30, $2612, $1015
 
 	Pokemon ALTARIA
 	Holds SHELL_BELL
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 20,31,20,20,31,20, ABILITY1
 	PV $000000E7 ; ♂ Docile
 	Text_EN "ALTARIA"11
+	Text_JP "チルタリス"11
 	Friendship 255
 
 	Pokemon STARMIE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,20,20,31,20, ABILITY2
 	PV $0000000F ; ⚲ Modest
 	Text_EN "STARMIE"11
+	Text_JP "スターミー"11
 	Friendship 255
 
 	Pokemon REGICE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 20,20,31,20,31,20, ABILITY1
 	PV $00000020 ; ⚲ Relaxed
 	Text_EN "REGICE"11
+	Text_JP "レジアイス"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

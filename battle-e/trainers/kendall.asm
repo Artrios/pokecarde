@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class POKEFAN_M
 	BT_Floor MOSSDEEP
 	Text_EN "KENDALL"8
+	Text_JP "タケモト"8
 	OT_ID 00000, 00000
 
 	Intro_EN _FLASH,_EX_EX,I,LIKE,IT,_EX_EX
 	Win_EN   CUTE,_EX,POKEMON,_EX,_FLASH,_EX_EX
 	Loss_EN  I,CAN_T_WIN,WITH,ONLY,_FLASH,_EX_EX
+
+	Intro_JP $1e16, $1405, $1033, $2694, $2694, $0c01
+	Win_JP $0418, $020e, $0c00, $0418, $2694, $0c01
+	Loss_JP $2694, $0e16, $100b, $060a, $100c, $0c01
 
 	Pokemon PLUSLE
 	Holds MAGNET
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ABILITY1
 	PV $0000008C ; ♂ Modest
 	Text_EN "PLUSLE"11
+	Text_JP "プラスル"11
 	Friendship 255
 
 	Pokemon MINUN
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "MINUN"11
+	Text_JP "マイナン"11
 	Friendship 255
 
 	Pokemon SNORUNT
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, ABILITY1
 	PV $0000000F ; ♀ Modest
 	Text_EN "SNORUNT"11
+	Text_JP "ユキワラシ"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

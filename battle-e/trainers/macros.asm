@@ -37,6 +37,21 @@ Loss_EN: MACRO
 	dw \1, \2, \3, \4, \5, \6
 	ENDC
 	ENDM
+Intro_JP: MACRO
+	IF REGION == REGION_JP
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+Win_JP: MACRO
+	IF REGION == REGION_JP
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
+Loss_JP: MACRO
+	IF REGION == REGION_JP
+	dw \1, \2, \3, \4, \5, \6
+	ENDC
+	ENDM
 Pokemon EQUS "dw"
 Holds EQUS "dw"
 Moves EQUS "dw"

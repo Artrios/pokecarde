@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class TRIATHLETE_M_SWIM
 	BT_Floor MOSSDEEP
 	Text_EN "DUSTIN"8
+	Text_JP "タカアキ"8
 	OT_ID 00000, 00000
 
 	Intro_EN RUN,_EX,I,NEVER,_STOP,_EX
 	Win_EN   ALL_RIGHT,_EX,_STOP,_EX,I_AM,DONE
 	Loss_EN  NON_STOP,_EX,I,WILL,RUN,MORE
+
+	Intro_JP $1638, $1638, $0c00, $0a49, $142d, $0c00
+	Win_JP $0c37, $1c19, $0c00, $1637, $1c14, $0c00
+	Loss_JP $200d, $0e36, $0c00, $1638, $1638, $0c00
 
 	Pokemon DODRIO
 	Holds QUICK_CLAW
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, ABILITY2
 	PV $0000008A ; ♂ Jolly
 	Text_EN "DODRIO"11
+	Text_JP "ドードリオ"11
 	Friendship 255
 
 	Pokemon MANECTRIC
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,15,15,15, ABILITY1
 	PV $0000000E ; ♀ Naive
 	Text_EN "MANECTRIC"11
+	Text_JP "ライボルト"11
 	Friendship 255
 
 	Pokemon LINOONE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, ABILITY1
 	PV $0000008B ; ♂ Naive
 	Text_EN "LINOONE"11
+	Text_JP "マッスグマ"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE

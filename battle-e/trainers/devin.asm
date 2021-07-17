@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	db COOLTRAINER_M
 	BT_Floor 19
 	Text_EN "DEVIN"8
+	Text_JP "シュウサク"8
 	OT_ID 00000, 00000
 
 	Intro_EN POWER,BATTLE,IS,ALWAYS,TRENDY,_EX
 	Win_EN   SEE,_QU,POWER,BATTLE,IS,TRENDY
 	Loss_EN  IS,_ELIP,POWER,BATTLE,TRENDY,_QU
+
+	Intro_JP $1c07, $061e, $0618, $0e0b, $280f, $1012
+	Win_JP $0c32, $0e39, $061e, $0618, $280f, $1021
+	Loss_JP $0c0e, $061e, $0618, $280f, $102b, $0c03
 
 	Pokemon HERACROSS
 	Holds SCOPE_LENS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "HERACROSS"11
+	Text_JP "ヘラクロス"11
 	Friendship 255
 
 	Pokemon SALAMENCE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, ABILITY1
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "SALAMENCE"11
+	Text_JP "ボーマンダ"11
 	Friendship 255
 
 	Pokemon METAGROSS
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, ABILITY1
 	PV $000000E4 ; ⚲ Adamant
 	Text_EN "METAGROSS"11
+	Text_JP "メタグロス"11
 	Friendship 255
 
 	Pokemon SPECIES_NONE
