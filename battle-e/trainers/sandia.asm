@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class EXPERT_F
 	BT_Floor 12
 	Text_EN "SANDIA"8
+	Text_JP "オスズ"8
 	OT_ID 00000, 00000
 
 	Intro_EN HERE_I_COME,_EX,MY,GUARD,IS,INVINCIBLE
 	Win_EN   I,BELIEVE,IN,MYSELF,_AND,TRAIN
 	Loss_EN  YOU,DID,_DETECT,MY,WEAK,POINTS
+
+	Intro_JP $0a43, $1034, $0632, $1421, $1034, $100b
+	Win_JP $0a2a, $1627, $180f, $1628, $0e0c, $100b
+	Loss_JP $1421, $0632, $0e1f, $1222, $1403, $100b
 
 	Pokemon CLAYDOL
 	Holds SHELL_BELL
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 20,20,31,20,20,31, CLAYDOL_LEVITATE
 	PV $0000000F ; ⚲ Modest
 	Text_EN "CLAYDOL"11
+	Text_JP "ネンドール"11
 	Friendship 255
 
 	Pokemon METAGROSS
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 20,31,20,20,20,31, METAGROSS_CLEAR_BODY
 	PV $0000001C ; ⚲ Adamant
 	Text_EN "METAGROSS"11
+	Text_JP "メタグロス"11
 	Friendship 255
 
 	Pokemon REGICE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 20,20,31,31,20,20, REGICE_CLEAR_BODY
 	PV $0000001E ; ⚲ Bold
 	Text_EN "REGICE"11
+	Text_JP "レジアイス"11
 	Friendship 255
 
 	End_Trainer

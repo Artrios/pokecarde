@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class EXPERT_M
 	BT_Floor 5
 	Text_EN "MARCUS"8
+	Text_JP "ヨシヒコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN MY,ATTACK,IS,GENIUS,_AND,INVINCIBLE
 	Win_EN   HOW,WAS,THE,POISON,ATTACK,_QU
 	Loss_EN  I,_ELIP,CAN_T,BEAT,YOU,_QU
+
+	Intro_JP $0a43, $1034, $0612, $0624, $0623, $100b
+	Win_JP $1e1b, $100b, $0c00, $265c, $0612, $0c01
+	Loss_JP $0a43, $0e1f, $ffff, $0a1a, $0e28, $060c
 
 	Pokemon SKARMORY
 	Holds LEFTOVERS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,14,15,15,14,30, SKARMORY_KEEN_EYE ; HP Bug 70
 	PV $00000094 ; ♂ Careful
 	Text_EN "SKARMORY"11
+	Text_JP "エアームド"11
 	Friendship 255
 
 	Pokemon HERACROSS
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, HERACROSS_GUTS
 	PV $0000000D ; ♀ Jolly
 	Text_EN "HERACROSS"11
+	Text_JP "ヘラクロス"11
 	Friendship 255
 
 	Pokemon SWAMPERT
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,15, SWAMPERT_TORRENT
 	PV $0000007F ; ♂ Brave
 	Text_EN "SWAMPERT"11
+	Text_JP "ラグラージ"11
 	Friendship 255
 
 	End_Trainer

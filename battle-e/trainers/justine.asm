@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class POKEFAN_F
 	BT_Floor MOSSDEEP
 	Text_EN "JUSTINE"8
+	Text_JP "セツコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN HEY,_QU_EX,LOOK,AT,MY,POKEMON
 	Win_EN   OH_DEAR,WAS,IT,A_LITTLE,SURPRISE,_QU
 	Loss_EN  OH_DEAR,IT,WAS,A_LITTLE,SURPRISE,_QU_EX
+
+	Intro_JP $081c, $081c, $0c02, $0e1b, $020e, $1643
+	Win_JP $0c32, $0c32, $0c02, $0e1b, $1234, $1004
+	Loss_JP $0c0c, $0c0c, $0c02, $0e1b, $1234, $0c02
 
 	Pokemon PIKACHU
 	Holds LIGHT_BALL
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, PIKACHU_STATIC
 	PV $0000000F ; ♀ Modest
 	Text_EN "PIKACHU"11
+	Text_JP "ピカチュウ"11
 	Friendship 255
 
 	Pokemon GOLEM
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, GOLEM_STURDY
 	PV $0000001B ; ♀ Brave
 	Text_EN "GOLEM"11
+	Text_JP "ゴローニャ"11
 	Friendship 255
 
 	Pokemon GENGAR
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, GENGAR_LEVITATE
 	PV $00000087 ; ♂ Timid
 	Text_EN "GENGAR"11
+	Text_JP "ゲンガー"11
 	Friendship 255
 
 	End_Trainer

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class AROMA_LADY
 	BT_Floor MOSSDEEP
 	Text_EN "APRIL"8
+	Text_JP "レイコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN SMELL,THIS,_SWEET_SCENT,FROM,MY,POKEMON
 	Win_EN   YOU,LIKE,THIS,_SWEET_SCENT,TOO,MUCH
 	Loss_EN  I,CAN_T_WIN,WITH,ONLY,_SWEET_SCENT,_QU
+
+	Intro_JP $0a48, $020e, $ffff, $24e6, $1628, $1021
+	Win_JP $0c13, $0c06, $ffff, $24e6, $1423, $1021
+	Loss_JP $24e6, $0e16, $100b, $060a, $1034, $1032
 
 	Pokemon WEEZING
 	Holds WHITE_HERB
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, WEEZING_LEVITATE
 	PV $00000080 ; ♂ Adamant
 	Text_EN "WEEZING"11
+	Text_JP "マタドガス"11
 	Friendship 255
 
 	Pokemon BELLOSSOM
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, BELLOSSOM_CHLOROPHYLL
 	PV $0000000F ; ♀ Modest
 	Text_EN "BELLOSSOM"11
+	Text_JP "キレイハナ"11
 	Friendship 255
 
 	Pokemon TROPIUS
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, TROPIUS_CHLOROPHYLL
 	PV $00000019 ; ♀ Hardy
 	Text_EN "TROPIUS"11
+	Text_JP "トロピウス"11
 	Friendship 255
 
 	End_Trainer

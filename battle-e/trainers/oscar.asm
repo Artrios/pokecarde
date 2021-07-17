@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class SAILOR
 	BT_Floor MOSSDEEP
 	Text_EN "OSCAR"8
+	Text_JP "シゲカズ"8
 	OT_ID 00000, 00000
 
 	Intro_EN DO,YOU,KNOW,THIS,POKEMON,_QU
 	Win_EN   HOW,WAS,MY,GHOST,POKEMON,_QU
 	Loss_EN  DID,YOU,LIKE,MY,POKEMON,_QU
+
+	Intro_JP $1e0b, $020e, $0c06, $1620, $140f, $0c03
+	Win_JP $1028, $1e0b, $041f, $0432, $1034, $020e
+	Loss_JP $1e0b, $020e, $ffff, $1e1b, $1014, $0c03
 
 	Pokemon ELECTRODE
 	Holds LIECHI_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, ELECTRODE_STATIC
 	PV $00000013 ; ⚲ Rash
 	Text_EN "ELECTRODE"11
+	Text_JP "マルマイン"11
 	Friendship 255
 
 	Pokemon DODRIO
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, DODRIO_EARLY_BIRD
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DODRIO"11
+	Text_JP "ドードリオ"11
 	Friendship 255
 
 	Pokemon GENGAR
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, GENGAR_LEVITATE
 	PV $0000008C ; ♂ Modest
 	Text_EN "GENGAR"11
+	Text_JP "ゲンガー"11
 	Friendship 255
 
 	End_Trainer

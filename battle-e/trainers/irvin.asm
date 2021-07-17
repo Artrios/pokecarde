@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class BUG_MANIAC
 	BT_Floor MOSSDEEP
 	Text_EN "IRVIN"8
+	Text_JP "ムツオ"8
 	OT_ID 00000, 00000
 
 	Intro_EN MMM,_ELIP_EX,I,TRUST,BUG,POKEMON
 	Win_EN   ISN_T,MY,BUG,POKEMON,COOL,_QU
 	Loss_EN  BUG,POKEMON,ARE,ALWAYS,THE,BEST
+
+	Intro_JP $0c36, $0c05, $ffff, $0462, $1005, $ffff
+	Win_JP $0a3a, $0461, $020e, $2806, $0c03, $ffff
+	Loss_JP $0461, $020e, $0e1f, $1c1c, $0606, $100f
 
 	Pokemon BEAUTIFLY
 	Holds POISON_BARB
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, BEAUTIFLY_SWARM
 	PV $0000001C ; ♀ Adamant
 	Text_EN "BEAUTIFLY"11
+	Text_JP "アゲハント"11
 	Friendship 255
 
 	Pokemon DUSTOX
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,31,15,15,31, DUSTOX_SHIELD_DUST
 	PV $000000E1 ; ♂ Hardy
 	Text_EN "DUSTOX"11
+	Text_JP "ドクケイル"11
 	Friendship 255
 
 	Pokemon MASQUERAIN
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,31,15,15,31, MASQUERAIN_INTIMIDATE
 	PV $00000019 ; ♀ Hardy
 	Text_EN "MASQUERAIN"11
+	Text_JP "アメモース"11
 	Friendship 255
 
 	End_Trainer

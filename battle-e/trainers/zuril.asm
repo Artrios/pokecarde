@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class RUIN_MANIAC
 	BT_Floor 12
 	Text_EN "ZURIL"8
+	Text_JP "イナオ"8
 	OT_ID 00000, 00000
 
 	Intro_EN FINALLY,I,GOT,_A,LEGEND,POKEMON
 	Win_EN   LEGEND,_ELIP,HOW,FABULOUS,IT,IS
 	Loss_EN  MY,LEGEND,WASN_T,ABOUT,VICTORY,_ELIP
+
+	Intro_JP $1c1b, $0a43, $ffff, $0625, $020e, $0201
+	Win_JP $0625, $0e1d, $0c06, $1423, $081b, $103e
+	Loss_JP $0631, $0625, $0c06, $0e24, $0e0c, $100b
 
 	Pokemon FLYGON
 	Holds BRIGHTPOWDER
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,20,31,20,20, FLYGON_LEVITATE
 	PV $0000000C ; ♀ Serious
 	Text_EN "FLYGON"11
+	Text_JP "フライゴン"11
 	Friendship 255
 
 	Pokemon WHISCASH
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,20,20,20,20, WHISCASH_OBLIVIOUS
 	PV $00000095 ; ♂ Quirky
 	Text_EN "WHISCASH"11
+	Text_JP "ナマズン"11
 	Friendship 255
 
 	Pokemon REGIROCK
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,20,20,20,20,31, REGIROCK_CLEAR_BODY
 	PV $0000001B ; ⚲ Brave
 	Text_EN "REGIROCK"11
+	Text_JP "レジロック"11
 	Friendship 255
 
 	End_Trainer

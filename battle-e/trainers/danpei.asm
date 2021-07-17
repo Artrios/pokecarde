@@ -1,0 +1,51 @@
+INCLUDE "trainers/macros.asm"
+
+	Battle_Trainer
+
+	BT_Level 0
+	db TC_BLACK_BELT
+	BT_Floor 0
+	Text_JP "ダンペイ"8
+	OT_ID 00000, 00000
+
+	Intro_JP $0636, $1034, $0407, $020b, $1019, $0c01
+	Win_JP $2002, $1019, $0c00, $180f, $0e11, $1019
+	Loss_JP $0407, $1034, $180f, $0e36, $1210, $1019
+
+	Pokemon LAIRON
+	Holds CHESTO_BERRY
+	Moves DOUBLE_EDGE, ROAR, REST, IRON_DEFENSE
+	Level 68
+	PP_Ups 0,0,0,0
+	EVs 252,252,0,0,0,6
+	OT_ID 00000, 00000
+	IVs 31,31,15,15,15,15, 1
+	PV $0000001C
+	Text_JP "コドラ"11
+	Friendship 255
+
+	Pokemon GRAVELER
+	Holds LAX_INCENSE
+	Moves DOUBLE_EDGE, HIDDEN_POWER, DOUBLE_TEAM, ATTRACT
+	Level 70
+	PP_Ups 0,0,0,0
+	EVs 252,252,0,0,0,6
+	OT_ID 00000, 00000
+	IVs 30,31,14,15,15,14, 0
+	PV $000000E4
+	Text_JP "ゴローン"11
+	Friendship 255
+
+	Pokemon SHELGON
+	Holds SHELL_BELL
+	Moves DOUBLE_EDGE, SCARY_FACE, BRICK_BREAK, DRAGON_DANCE
+	Level 72
+	PP_Ups 0,0,0,0
+	EVs 252,252,0,0,0,6
+	OT_ID 00000, 00000
+	IVs 31,31,15,15,15,15, 0
+	PV $0000001C
+	Text_JP "コモルー"11
+	Friendship 255
+
+	End_Trainer

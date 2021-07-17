@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class COLLECTOR
 	BT_Floor MOSSDEEP
 	Text_EN "STUART"8
+	Text_JP "エツヤ"8
 	OT_ID 00000, 00000
 
 	Intro_EN THERE,IS,NOTHING,BAD,ABOUT,THICK_FAT
 	Win_EN   MY,POKEMON,WILL,NEVER,DIET,_EX_EX
 	Loss_EN  MY,POKEMON,SHOULD,START,_A,DIET
+
+	Intro_JP $0a3a, $020e, $245a, $1628, $0e2b, $0402
+	Win_JP $0a3a, $020e, $1a1a, $1e23, $1622, $100e
+	Loss_JP $0a3a, $020e, $0e1b, $1a1a, $100d, $1005
 
 	Pokemon AGGRON
 	Holds SCOPE_LENS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, AGGRON_ROCK_HEAD
 	PV $00000016 ; ♀ Sassy
 	Text_EN "AGGRON"11
+	Text_JP "ボスゴドラ"11
 	Friendship 255
 
 	Pokemon WAILORD
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, WAILORD_OBLIVIOUS
 	PV $00000091 ; ♂ Calm
 	Text_EN "WAILORD"11
+	Text_JP "ホエルオー"11
 	Friendship 255
 
 	Pokemon METAGROSS
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, METAGROSS_CLEAR_BODY
 	PV $00000017 ; ⚲ Careful
 	Text_EN "METAGROSS"11
+	Text_JP "メタグロス"11
 	Friendship 255
 
 	End_Trainer

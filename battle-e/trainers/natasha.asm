@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PSYCHIC_F
 	BT_Floor 12
 	Text_EN "NATASHA"8
+	Text_JP "ユキエ"8
 	OT_ID 00000, 00000
 
 	Intro_EN LOOK,_EX,MY,SKILLED,ATTACK,_EX_EX
 	Win_EN   OH_,WHERE,WAS,YOUR,_LIGHT_SCREEN,_QU
 	Loss_EN  I,WAS,NO_MATCH,FOR,YOU,_EX_EX
+
+	Intro_JP $1643, $0c00, $1e0b, $063e, $0617, $0c01
+	Win_JP $0c0c, $0c03, $2671, $142f, $1034, $0c03
+	Loss_JP $0c0c, $0c03, $ffff, $0a02, $0621, $0c01
 
 	Pokemon STARMIE
 	Holds SCOPE_LENS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, STARMIE_NATURAL_CURE
 	PV $0000000F ; ⚲ Modest
 	Text_EN "STARMIE"11
+	Text_JP "スターミー"11
 	Friendship 255
 
 	Pokemon SALAMENCE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,31,15, SALAMENCE_INTIMIDATE
 	PV $0000008C ; ♂ Modest
 	Text_EN "SALAMENCE"11
+	Text_JP "ボーマンダ"11
 	Friendship 255
 
 	Pokemon SCEPTILE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, SCEPTILE_OVERGROW
 	PV $0000000F ; ♀ Modest
 	Text_EN "SCEPTILE"11
+	Text_JP "ジュカイン"11
 	Friendship 255
 
 	End_Trainer

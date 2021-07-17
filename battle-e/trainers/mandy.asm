@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class SCHOOL_KID_F
 	BT_Floor 12
 	Text_EN "MANDY"8
+	Text_JP "ユキコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I,WAKE_UP,_AND,STUDY,VERY,HARD
 	Win_EN   STUDY,IS,BORING,IT_S,NAP,TIME
 	Loss_EN  _REST,_ELIP,NAP,_ELIP,SLEEP,NOW
+
+	Intro_JP $0449, $0448, $0c00, $1822, $1822, $0c01
+	Win_JP $1822, $1224, $1021, $1a28, $102a, $2018
+	Loss_JP $1634, $269c, $0c06, $0a46, $0c06, $1a28
 
 	Pokemon ALTARIA
 	Holds SITRUS_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,31,15,31,15, ALTARIA_NATURAL_CURE
 	PV $0000000F ; ♀ Modest
 	Text_EN "ALTARIA"11
+	Text_JP "チルタリス"11
 	Friendship 255
 
 	Pokemon BRELOOM
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, BRELOOM_EFFECT_SPORE
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "BRELOOM"11
+	Text_JP "キノガッサ"11
 	Friendship 255
 
 	Pokemon SLAKING
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,15,15,31, SLAKING_TRUANT
 	PV $000000DE ; ♂ Sassy
 	Text_EN "SLAKING"11
+	Text_JP "ケッキング"11
 	Friendship 255
 
 	End_Trainer

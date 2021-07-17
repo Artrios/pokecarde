@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class TC_BLACK_BELT
 	BT_Floor MOSSDEEP
 	Text_EN "TSUTOMU"8
+	Text_JP "トシユキ"8
 	OT_ID 00000, 00000
 
 	Intro_EN HIYAH,I,KNOW,YOUR,WEAK,POINTS
 	Win_EN   HAHAHA,_EX_EX,THAT_S,YOUR,WEAK,POINTS
 	Loss_EN  ARRGH,YOU,KNOW,MY,WEAK,POINTS
+
+	Intro_JP $0a1d, $0639, $062b, $0627, $100f, $ffff
+	Win_JP $0c28, $0c01, $0639, $062b, $1401, $1032
+	Loss_JP $0c0e, $0639, $062b, $061a, $164b, $1031
 
 	Pokemon ZANGOOSE
 	Holds SCOPE_LENS
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, ZANGOOSE_IMMUNITY
 	PV $0000001C ; ♀ Adamant
 	Text_EN "ZANGOOSE"11
+	Text_JP "ザングース"11
 	Friendship 255
 
 	Pokemon SEVIPER
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, SEVIPER_SHED_SKIN
 	PV $00000080 ; ♂ Adamant
 	Text_EN "SEVIPER"11
+	Text_JP "ハブネーク"11
 	Friendship 255
 
 	Pokemon MACHAMP
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 30,31,14,15,15,14, MACHAMP_GUTS ; HP Electric 70
 	PV $0000001C ; ♀ Adamant
 	Text_EN "MACHAMP"11
+	Text_JP "カイリキー"11
 	Friendship 255
 
 	End_Trainer

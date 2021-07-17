@@ -1,0 +1,51 @@
+INCLUDE "trainers/macros.asm"
+
+	Battle_Trainer
+
+	BT_Level 100
+	db DRAGON_TAMER
+	BT_Floor 19
+	Text_JP "クエン"8
+	OT_ID 00000, 00000
+
+	Intro_JP $1624, $1034, $063e, $1643, $1007, $0c00
+	Win_JP $142b, $1034, $2751, $0e2a, $1011, $0c00
+	Loss_JP $1209, $0c04, $ffff, $0a48, $2751, $0c06
+
+	Pokemon SALAMENCE
+	Holds DRAGON_FANG
+	Moves DRAGON_CLAW, CRUNCH, STEEL_WING, DOUBLE_EDGE
+	Level 100
+	PP_Ups 0,0,0,0
+	EVs 0,252,0,6,252,0
+	OT_ID 00000, 00000
+	IVs 20,20,20,31,31,20, 0
+	PV $00000019
+	Text_JP "ボーマンダ"11
+	Friendship 255
+
+	Pokemon AGGRON
+	Holds QUICK_CLAW
+	Moves DRAGON_CLAW, BRICK_BREAK, EARTHQUAKE, IRON_TAIL
+	Level 100
+	PP_Ups 0,0,0,0
+	EVs 6,252,0,0,252,0
+	OT_ID 00000, 00000
+	IVs 31,20,20,20,31,20, 0
+	PV $000000E2
+	Text_JP "ボスゴドラ"11
+	Friendship 255
+
+	Pokemon SCEPTILE
+	Holds LUM_BERRY
+	Moves DRAGON_CLAW, AERIAL_ACE, LEAF_BLADE, EARTHQUAKE
+	Level 100
+	PP_Ups 0,0,0,0
+	EVs 0,252,0,6,252,0
+	OT_ID 00000, 00000
+	IVs 20,31,20,31,20,20, 0
+	PV $0000000F
+	Text_JP "ジュカイン"11
+	Friendship 255
+
+	End_Trainer

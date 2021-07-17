@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class HEX_MANIAC
 	BT_Floor MOSSDEEP
 	Text_EN "CELINA"8
+	Text_JP "チトセ"8
 	OT_ID 00000, 00000
 
 	Intro_EN GHOST,_ELIP,WHAT,COULD,THAT,BE
 	Win_EN   GHOST,_ELIP,THEY,NEVER,GET,DEFEATED
 	Loss_EN  GHOST,_ELIP,THEY,GOT,DEFEATED,_QU
+
+	Intro_JP $0a48, $041f, $0c06, $1e22, $1004, $0c03
+	Win_JP $0a48, $041f, $0c06, $26c1, $0e0c, $162d
+	Loss_JP $0a48, $041f, $0c06, $26c1, $0e24, $0c06
 
 	Pokemon DUSCLOPS
 	Holds SPELL_TAG
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, DUSCLOPS_PRESSURE
 	PV $00000095 ; ♂ Quirky
 	Text_EN "DUSCLOPS"11
+	Text_JP "サマヨール"11
 	Friendship 255
 
 	Pokemon SABLEYE
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, SABLEYE_KEEN_EYE
 	PV $00000096 ; ♂ Hardy
 	Text_EN "SABLEYE"11
+	Text_JP "ヤミラミ"11
 	Friendship 255
 
 	Pokemon SHEDINJA
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, SHEDINJA_WONDER_GUARD
 	PV $00000080 ; ⚲ Adamant
 	Text_EN "SHEDINJA"11
+	Text_JP "ヌケニン"11
 	Friendship 255
 
 	End_Trainer

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PKMN_RANGER_F
 	BT_Floor MOSSDEEP
 	Text_EN "HEATHER"8
+	Text_JP "シズカ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YOUR,ATTACK,GOES,BACK,TO,YOU
 	Win_EN   _COUNTER,ATTACK,ARE,YOU,OK_,BLANK
 	Loss_EN  OH,_EX,MY,_COUNTER,DIDN_T,WORK
+
+	Intro_JP $0a1d, $162a, $063e, $0a1c, $1613, $103e
+	Win_JP $2444, $161a, $1010, $0e0a, $1227, $0c03
+	Loss_JP $0624, $0c00, $2444, $26c5, $1641, $1032
 
 	Pokemon MACHAMP
 	Holds SHELL_BELL
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, MACHAMP_GUTS
 	PV $00000080 ; ♂ Adamant
 	Text_EN "MACHAMP"11
+	Text_JP "カイリキー"11
 	Friendship 255
 
 	Pokemon TENTACRUEL
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, TENTACRUEL_LIQUID_OOZE
 	PV $0000000F ; ♀ Modest
 	Text_EN "TENTACRUEL"11
+	Text_JP "ドククラゲ"11
 	Friendship 255
 
 	Pokemon WOBBUFFET
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, WOBBUFFET_SHADOW_TAG
 	PV $00000085 ; ♂ Impish
 	Text_EN "WOBBUFFET"11
+	Text_JP "ソーナンス"11
 	Friendship 255
 
 	End_Trainer

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PSYCHIC_F
 	BT_Floor MOSSDEEP
 	Text_EN "JUDITH"8
+	Text_JP "ナナエ"8
 	OT_ID 00000, 00000
 
 	Intro_EN WELCOME,_ELIP_EX,I_AM,_A,_TRICK,_T_PSYCHIC
 	Win_EN   ISN_T,MY,_TRICK,SO,COOL,_QU
 	Loss_EN  _A,GOOD,_TRICK,IS,NEVER,EASY
+
+	Intro_JP $0828, $0c05, $ffff, $0a45, $270f, $040e
+	Win_JP $0a45, $1034, $270f, $1423, $1021, $ffff
+	Loss_JP $270f, $0e17, $1229, $102b, $103f, $0c00
 
 	Pokemon ALAKAZAM
 	Holds CHOICE_BAND
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, ALAKAZAM_SYNCHRONIZE
 	PV $00000087 ; ♂ Timid
 	Text_EN "ALAKAZAM"11
+	Text_JP "フーディン"11
 	Friendship 255
 
 	Pokemon KECLEON
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, KECLEON_COLOR_CHANGE
 	PV $00000016 ; ⚲ Sassy
 	Text_EN "KECLEON"11
+	Text_JP "カクレオン"11
 	Friendship 255
 
 	Pokemon LINOONE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, LINOONE_PICKUP
 	PV $00000085 ; ♂ Impish
 	Text_EN "LINOONE"11
+	Text_JP "マッスグマ"11
 	Friendship 255
 
 	End_Trainer

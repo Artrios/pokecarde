@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class NINJA_BOY
 	BT_Floor MOSSDEEP
 	Text_EN "GORO"8
+	Text_JP "タカナオ"8
 	OT_ID 00000, 00000
 
 	Intro_EN COME_ON,_EX_EX,COME_ON,_EX_EX,SPEED_BOOST,_EX_EX
 	Win_EN   MORE,_EX_EX,MORE,_EX_EX,SPEED_BOOST,_EX_EX
 	Loss_EN  ARRGH,_ELIP,GIVE_ME,MORE,SPEED_BOOST,_ELIP_EX
+
+	Intro_JP $1434, $1434, $0c05, $0414, $0414, $0c05
+	Win_JP $0e36, $0e36, $0c05, $0414, $0414, $0c05
+	Loss_JP $201e, $200c, $0c06, $0e36, $0414, $0c05
 
 	Pokemon ELECTRODE
 	Holds KING_S_ROCK
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, ELECTRODE_STATIC
 	PV $0000000E ; ⚲ Naive
 	Text_EN "ELECTRODE"11
+	Text_JP "マルマイン"11
 	Friendship 255
 
 	Pokemon NINJASK
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, NINJASK_SPEED_BOOST
 	PV $000000D5 ; ♂ Jolly
 	Text_EN "NINJASK"11
+	Text_JP "テッカニン"11
 	Friendship 255
 
 	Pokemon CROBAT
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, CROBAT_INNER_FOCUS
 	PV $0000000D ; ♀ Jolly
 	Text_EN "CROBAT"11
+	Text_JP "クロバット"11
 	Friendship 255
 
 	End_Trainer

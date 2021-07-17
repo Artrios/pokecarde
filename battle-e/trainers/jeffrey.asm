@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class YOUNGSTER
 	BT_Floor MOSSDEEP
 	Text_EN "JEFFREY"8
+	Text_JP "タツミ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I,WILL,SHOW,YOU,MY,SECRET
 	Win_EN   YEAH,MY,SECRET,_ELIP,IS,SECRET
 	Loss_EN  GO_EASY,ON,ME,_ELIP,PLEASE,_EX
+
+	Intro_JP $0a37, $1034, $1439, $1c28, $164c, $103e
+	Win_JP $1439, $1034, $1439, $0c06, $1439, $1016
+	Loss_JP $0e1b, $0622, $ffff, $1611, $100a, $0c06
 
 	Pokemon PINSIR
 	Holds KING_S_ROCK
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, PINSIR_HYPER_CUTTER
 	PV $00000080 ; ♂ Adamant
 	Text_EN "PINSIR"11
+	Text_JP "カイロス"11
 	Friendship 255
 
 	Pokemon NINETALES
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, NINETALES_FLASH_FIRE
 	PV $0000000F ; ♀ Modest
 	Text_EN "NINETALES"11
+	Text_JP "キュウコン"11
 	Friendship 255
 
 	Pokemon BLASTOISE
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, BLASTOISE_TORRENT
 	PV $00000083 ; ♂ Docile
 	Text_EN "BLASTOISE"11
+	Text_JP "カメックス"11
 	Friendship 255
 
 	End_Trainer

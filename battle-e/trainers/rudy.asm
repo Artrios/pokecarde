@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class YOUNGSTER
 	BT_Floor MOSSDEEP
 	Text_EN "RUDY"8
+	Text_JP "ケンジロウ"8
 	OT_ID 00000, 00000
 
 	Intro_EN YEAH,_EX,GO,_EX,_TACKLE,_EX_EX
 	Win_EN   I,SOMEHOW,WON,THE,BATTLE,_EX_EX
 	Loss_EN  I_AM,NOT,HOPELESS,BUT,I,GIVE_UP
+
+	Intro_JP $2007, $2009, $ffff, $2621, $0c01, $ffff
+	Win_JP $200f, $2013, $0c06, $0e26, $0607, $103f
+	Loss_JP $2019, $201c, $0c06, $0c0f, $062d, $0c06
 
 	Pokemon CASCOON
 	Holds EVERSTONE
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, CASCOON_SHED_SKIN
 	PV $00000083 ; ♂ Docile
 	Text_EN "CASCOON"11
+	Text_JP "マユルド"11
 	Friendship 255
 
 	Pokemon SILCOON
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, SILCOON_SHED_SKIN
 	PV $00000012 ; ♀ Bashful
 	Text_EN "SILCOON"11
+	Text_JP "カラサリス"11
 	Friendship 255
 
 	Pokemon MAGIKARP
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, MAGIKARP_SWIFT_SWIM
 	PV $00000095 ; ♂ Quirky
 	Text_EN "MAGIKARP"11
+	Text_JP "コイキング"11
 	Friendship 255
 
 	End_Trainer

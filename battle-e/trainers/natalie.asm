@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class BATTLE_GIRL
 	BT_Floor MOSSDEEP
 	Text_EN "NATALIE"8
+	Text_JP "ノリコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN GET,READY,TO,START,THE,BATTLE
 	Win_EN   ALTHOUGH,I_AM,SMALL,I,BEAT,YOU
 	Loss_EN  NEXT,BATTLE,I,WILL,BE,BETTER
+
+	Intro_JP $0e0e, $0c00, $0804, $020e, $0628, $0c01
+	Win_JP $201e, $1428, $0e0a, $0a1c, $0607, $0c3d
+	Loss_JP $201e, $1428, $0e0a, $1c1c, $1210, $0c3d
 
 	Pokemon MAGIKARP
 	Holds CHOICE_BAND
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, MAGIKARP_SWIFT_SWIM
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "MAGIKARP"11
+	Text_JP "コイキング"11
 	Friendship 255
 
 	Pokemon LAIRON
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, LAIRON_STURDY
 	PV $000000E4 ; ♂ Adamant
 	Text_EN "LAIRON"11
+	Text_JP "コドラ"11
 	Friendship 255
 
 	Pokemon SHELGON
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, SHELGON_ROCK_HEAD
 	PV $0000001C ; ♀ Adamant
 	Text_EN "SHELGON"11
+	Text_JP "コモルー"11
 	Friendship 255
 
 	End_Trainer

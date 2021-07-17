@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class POKEFAN_F
 	BT_Floor MOSSDEEP
 	Text_EN "ALANA"8
+	Text_JP "チズ"8
 	OT_ID 00000, 00000
 
 	Intro_EN LET_S,START,THIS,_ELIP,BATTLE,_EX
 	Win_EN   OH_,DID,I,_ELIP,WIN,_QU
 	Loss_EN  OH_,DID,I,_ELIP,LOSE,_QU
+
+	Intro_JP $0e0e, $0c06, $0c06, $061c, $0c06, $1005
+	Win_JP $0c0c, $0c06, $0c06, $0607, $0c03, $ffff
+	Loss_JP $0c0c, $0c06, $0c06, $062e, $0c03, $ffff
 
 	Pokemon TORKOAL
 	Holds QUICK_CLAW
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,15,31,31, TORKOAL_WHITE_SMOKE
 	PV $000000D9 ; ♂ Quiet
 	Text_EN "TORKOAL"11
+	Text_JP "コータス"11
 	Friendship 255
 
 	Pokemon DUSCLOPS
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,31,15,15,31, DUSCLOPS_PRESSURE
 	PV $00000016 ; ♀ Sassy
 	Text_EN "DUSCLOPS"11
+	Text_JP "サマヨール"11
 	Friendship 255
 
 	Pokemon CORSOLA
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,15,31,31, CORSOLA_NATURAL_CURE
 	PV $0000001B ; ♀ Brave
 	Text_EN "CORSOLA"11
+	Text_JP "サニーゴ"11
 	Friendship 255
 
 	End_Trainer

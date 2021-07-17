@@ -1,6 +1,9 @@
 SERIES_1_NUMS = A001 A002 A003 A004 A005 A006 A007 A008 A009 A010 A011 A012 A013 A014 A015 A016 A017 A018 A019 A020 A021 A022 A023 A024 A025 A026 A027 A028 A029 A030 A031 A032 A033 A034 A035 A036 A037 A038 A039 A040 A041 A042 A043 A044 A045 A046 A047 A048 K001 K002 K003 K004 K005 K006
 SERIES_1_TRAINERS = alana annie antonio april belford bryce candice celina clayton devin dominic dustin ellie fay fuego goro griffin hayden heather hillary hugo irazu irvin jeffrey judith justine kendall logan maggie mandy marcus natalie natasha oscar patrick raquel renee rudy sandia sandy sofia sonya sophie stuart tsutomu tyler wilson zuril
 SERIES_1_BERRIES = chilan drash eggant nutpea pumkin strib
+SERIES_2_NUMS = B001 B002 B003 B004 B005 B006 B007 B008 B009 B010 B011 B012 B013 B014 B015 B016 B017 B018 B019 B020 B021 B022 B023 B024 B025 B026 B027 B028 B029 B030 B031 B032 B033 B034 B035 B036 B037 B038 B039 B040 B041 B042 B043 B044 B045 B046 B047 B048
+SERIES_2_TRAINERS = anthony chisa daikichi danpei fiennes fugen fukune harue hoyoshi ihara jo junji junpei hiyoshi koto kuen kyohei makio mami masaru matsuo miyoko moet momoko natsuko noriko nozomu otoya reina rina ruizo ryo sadayo satoe shigeko shigenobu shinji shizu suekichi sueno tomoyasu toshinao toshitsugu umami yoko yu yuka yukio
+
 #PROMO_EN_TRAINERS = astrid nils
 
 all: series_1 verify

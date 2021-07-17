@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class LADY
 	BT_Floor MOSSDEEP
 	Text_EN "SOPHIE"8
+	Text_JP "マミナ"8
 	OT_ID 00000, 00000
 
 	Intro_EN MY,CUTENESS,WILL,_STOP,YOU,_EX
 	Win_EN   FUFUFU,DID,YOU,LIKE,IT,_QU_EX
 	Loss_EN  EH_,YOU,ARE,VERY,CUTE,TOO
+
+	Intro_JP $0a48, $0419, $0e28, $2432, $1026, $0c00
+	Win_JP $0c13, $ffff, $ffff, $26d5, $1e11, $0c03
+	Loss_JP $0419, $1034, $1402, $0a46, $26d5, $0c05
 
 	Pokemon DELCATTY
 	Holds SILK_SCARF
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, DELCATTY_CUTE_CHARM
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DELCATTY"11
+	Text_JP "エネコロロ"11
 	Friendship 255
 
 	Pokemon LUVDISC
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, LUVDISC_SWIFT_SWIM
 	PV $000000E7 ; ♂ Docile
 	Text_EN "LUVDISC"11
+	Text_JP "ラブカス"11
 	Friendship 255
 
 	Pokemon KIRLIA
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,31,31,15, KIRLIA_TRACE
 	PV $0000000F ; ♀ Modest
 	Text_EN "KIRLIA"11
+	Text_JP "キルリア"11
 	Friendship 255
 
 	End_Trainer

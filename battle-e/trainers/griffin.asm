@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PSYCHIC_M
 	BT_Floor MOSSDEEP
 	Text_EN "GRIFFIN"8
+	Text_JP "アスオ"8
 	OT_ID 00000, 00000
 
 	Intro_EN CAN,YOU,SENSE,THE,PRESSURE,_QU
 	Win_EN   YOUR,PRESSURE,IS,WEAK,_AND,LACKING
 	Loss_EN  ARRGH,_EX,WHAT,FANTASTIC,PRESSURE,_EX_EX
+
+	Intro_JP $0a1a, $0c00, $1e0b, $0454, $164c, $1003
+	Win_JP $0a1d, $0454, $0e24, $1e10, $103c, $1016
+	Loss_JP $0c0e, $0c00, $0e24, $0454, $1e24, $0c01
 
 	Pokemon BANETTE
 	Holds LEPPA_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, BANETTE_INSOMNIA
 	PV $00000085 ; ♂ Impish
 	Text_EN "BANETTE"11
+	Text_JP "ジュペッタ"11
 	Friendship 255
 
 	Pokemon ABSOL
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,31,15,15,15, ABSOL_PRESSURE
 	PV $0000001C ; ♀ Adamant
 	Text_EN "ABSOL"11
+	Text_JP "アブソル"11
 	Friendship 255
 
 	Pokemon DUSCLOPS
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,15,31, DUSCLOPS_PRESSURE
 	PV $0000001C ; ♀ Adamant
 	Text_EN "DUSCLOPS"11
+	Text_JP "サマヨール"11
 	Friendship 255
 
 	End_Trainer

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class PICNICKER
 	BT_Floor 19
 	Text_EN "SANDY"8
+	Text_JP "トシミ"8
 	OT_ID 00000, 00000
 
 	Intro_EN I,GOT,MY,POKEMON,WITH,POKEBLOCK
 	Win_EN   I,COLLECT,MORE,POKEMON,WITH,POKEBLOCK
 	Loss_EN  URGH,I,HAVE,NO,MORE,POKEBLOCK
+
+	Intro_JP $2212, $162c, $0201, $1e11, $020e, $103e
+	Win_JP $2212, $162c, $0e36, $020e, $0201, $100d
+	Loss_JP $0c0a, $0c06, $1c27, $2212, $142f, $103f
 
 	Pokemon HERACROSS
 	Holds BLACK_BELT
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, HERACROSS_GUTS
 	PV $00000080 ; ♂ Adamant
 	Text_EN "HERACROSS"11
+	Text_JP "ヘラクロス"11
 	Friendship 255
 
 	Pokemon GIRAFARIG
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,31,15,15, GIRAFARIG_INNER_FOCUS
 	PV $00000018 ; ♀ Quirky
 	Text_EN "GIRAFARIG"11
+	Text_JP "キリンリキ"11
 	Friendship 255
 
 	Pokemon DODRIO
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,31,15,31,15,15, DODRIO_EARLY_BIRD
 	PV $00000080 ; ♂ Adamant
 	Text_EN "DODRIO"11
+	Text_JP "ドードリオ"11
 	Friendship 255
 
 	End_Trainer

@@ -6,11 +6,16 @@ INCLUDE "trainers/macros.asm"
 	Class HIKER
 	BT_Floor MOSSDEEP
 	Text_EN "HUGO"8
+	Text_JP "ユキヒコ"8
 	OT_ID 00000, 00000
 
 	Intro_EN START,_A,DIET,_QU,NO,WAY
 	Win_EN   HAH,_ELIP,I_AM,NOW,HUNGRY,_ELIP
 	Loss_EN  IT_S,SUPER,HARD,TO,DIET,_EX_EX
+
+	Intro_JP $1a1a, $0e24, $ffff, $1622, $103f, $1011
+	Win_JP $0c26, $0c06, $0e36, $1e23, $122c, $0c06
+	Loss_JP $0c26, $0c06, $ffff, $1a1a, $122f, $0c06
 
 	Pokemon WALREIN
 	Holds SITRUS_BERRY
@@ -22,6 +27,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,15,15,15,31,15, WALREIN_THICK_FAT
 	PV $0000008E ; ♂ Quiet
 	Text_EN "WALREIN"11
+	Text_JP "トドゼルガ"11
 	Friendship 255
 
 	Pokemon HARIYAMA
@@ -34,6 +40,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 31,31,15,15,15,15, HARIYAMA_THICK_FAT
 	PV $0000007F ; ♂ Brave
 	Text_EN "HARIYAMA"11
+	Text_JP "ハリテヤマ"11
 	Friendship 255
 
 	Pokemon GRUMPIG
@@ -46,6 +53,7 @@ INCLUDE "trainers/macros.asm"
 	IVs 15,15,15,15,31,31, GRUMPIG_THICK_FAT
 	PV $00000018 ; ♀ Quirky
 	Text_EN "GRUMPIG"11
+	Text_JP "ブーピッグ"11
 	Friendship 255
 
 	End_Trainer
