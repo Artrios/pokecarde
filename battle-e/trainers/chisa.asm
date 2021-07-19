@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db SCHOOL_KID_F
 	BT_Floor 0
+	Text_EN "CHISA"8
 	Text_JP "チサ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1428, $020e, $162c, $1616, $1602, $1033
+	Win_EN $1428, $0418, $0e16, $100b, $142f, $103f
+	Loss_EN $0418, $0e16, $102b, $0a48, $1428, $020e
 
 	Intro_JP $1428, $020e, $162c, $1616, $1602, $1033
 	Win_JP $1428, $0418, $0e16, $100b, $142f, $103f
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,15,31, 0
 	PV $00000019
+	Text_EN "AZURILL"11
 	Text_JP "ルリリ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,15,31, 0
 	PV $000000E0
+	Text_EN "WYNAUT"11
 	Text_JP "ソーナノ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $000000E7
+	Text_EN "PICHU"11
 	Text_JP "ピチュー"11
 	Friendship 255
 
