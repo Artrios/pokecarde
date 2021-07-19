@@ -19,12 +19,12 @@ PokemonStart:
 	Language $0202	;Language $0201=JP $0202=EN $0203=FR $0204=IT $0205=DE $0206=KR $0207=ES $0601=EGG
 	Text_EN "STEVEN"7
 	Markings 0 ;markings
-	dw 0 ;Checksum, will be computed later :)
+	dw 0 ;Checksum, computed later
 	dw 0 ;Unknown
 
 ;Substruct1
 	Pokemon BELDUM
-	Holds METAGROSSITE
+	Holds ITEM_NONE
 	dd 156 ;Experience
 	PP_Ups 0,0,0,0 ;PP_Ups
 	Friendship 0 ;Friendship

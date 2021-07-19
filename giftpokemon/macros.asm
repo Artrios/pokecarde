@@ -1,10 +1,10 @@
 INCLUDE "../macros.asm"
 INCLUDE "../constants/abilities.asm"
 INCLUDE "../constants/easychat.asm"
-INCLUDE "../constants/items_expansion.asm"
+INCLUDE "../constants/items.asm"
 INCLUDE "../constants/moves.asm"
 INCLUDE "../constants/natures.asm"
-INCLUDE "../constants/pokemon_expansion.asm"
+INCLUDE "../constants/pokemon.asm"
 INCLUDE "../constants/trainerclasses.asm"
 
 MOSSDEEP EQU 0
