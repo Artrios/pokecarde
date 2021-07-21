@@ -64,7 +64,7 @@ battletrainer-%.tx: battletrainer.asm prologue-%.bin
 	./nevpk -c -i $< -o $@
 08-A%.raw: 08-A%.vpk
 	./nedcmake -i $< -o $@ -type 1 -region 1
-	mv $@-01.raw $@
+
 
 enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
 	python ../scripts/ereadertext.py $< $@ $*
@@ -80,7 +80,7 @@ enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
 	./nevpk -c -i $< -o $@
 08-K%.raw: 08-K%.vpk
 	./nedcmake -i $< -o $@ -type 1 -region 1 -raw
-	mv $@-01.raw $@
+
 
 clean:
 	rm -f *.z80 *.tx *.o *.gbc *.bin *.raw \
