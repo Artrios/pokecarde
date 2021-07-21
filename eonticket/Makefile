@@ -1,4 +1,4 @@
-all: 00-C000-EN.z80 verify
+all: 00-C000-EN.raw verify
 verify:
 	md5sum --check eonticket.md5
 
