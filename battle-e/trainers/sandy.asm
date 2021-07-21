@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GIRAFARIG
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves PSYCHIC, MAGIC_COAT, CRUNCH, STOMP
 	Level 50
 	PP_Ups 0,0,0,0

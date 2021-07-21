@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $201e, $200c, $0c06, $0e36, $0414, $0c05
 
 	Pokemon ELECTRODE
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves THUNDERBOLT, LIGHT_SCREEN, MIRROR_COAT, EXPLOSION
 	Level 50
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon NINJASK
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves SILVER_WIND, AERIAL_ACE, FAINT_ATTACK, SHADOW_BALL
 	Level 52
 	PP_Ups 0,0,0,0
@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon CROBAT
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves CONFUSE_RAY, SLUDGE_BOMB, AIR_CUTTER, DOUBLE_TEAM
 	Level 54
 	PP_Ups 0,0,0,0

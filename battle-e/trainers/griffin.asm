@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon ABSOL
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves PROTECT, DOUBLE_TEAM, REST, SLASH
 	Level 54
 	PP_Ups 0,0,0,0

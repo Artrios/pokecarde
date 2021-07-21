@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GOLEM
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves EXPLOSION, EARTHQUAKE, ROCK_SLIDE, FOCUS_PUNCH
 	Level 62
 	PP_Ups 0,0,0,0

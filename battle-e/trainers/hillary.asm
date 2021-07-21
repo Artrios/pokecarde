@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $1421, $0e08, $0e1d, $062c, $140e, $1026
 
 	Pokemon XATU
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves PSYCHIC, SUNNY_DAY, CONFUSE_RAY, SOLARBEAM
 	Level 54
 	PP_Ups 0,0,0,0

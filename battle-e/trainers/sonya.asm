@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0616, $1014, $0e0a, $060a, $0c06, $1220
 
 	Pokemon CLAYDOL
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves PSYCHIC, EARTHQUAKE, ICE_BEAM, REFLECT
 	Level 51
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon CHIMECHO
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves PSYCHIC, SHADOW_BALL, LIGHT_SCREEN, DISABLE
 	Level 53
 	PP_Ups 0,0,0,0

@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0631, $0625, $0c06, $0e24, $0e0c, $100b
 
 	Pokemon FLYGON
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves EARTHQUAKE, DRAGON_CLAW, SANDSTORM, CRUNCH
 	Level 100
 	PP_Ups 0,0,0,0

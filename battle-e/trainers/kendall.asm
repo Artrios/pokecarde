@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SNORUNT
-	Holds NEVERMELTICE
+	Holds NEVER_MELT_ICE
 	Moves BLOCK, ICY_WIND, PROTECT, FLASH
 	Level 94
 	PP_Ups 0,0,0,0

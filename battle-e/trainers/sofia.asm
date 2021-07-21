@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon MANECTRIC
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves RAIN_DANCE, THUNDER, THUNDER_WAVE, CRUNCH
 	Level 52
 	PP_Ups 0,0,0,0

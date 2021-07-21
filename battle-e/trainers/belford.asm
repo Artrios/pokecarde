@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon CROBAT
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves TOXIC, AIR_CUTTER, CONFUSE_RAY, SHADOW_BALL
 	Level 100
 	PP_Ups 0,0,0,0

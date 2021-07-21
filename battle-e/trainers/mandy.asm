@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SLAKING
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves YAWN, HYPER_BEAM, SHADOW_BALL, ICE_BEAM
 	Level 50
 	PP_Ups 0,0,0,0

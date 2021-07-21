@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0408, $1603, $0e0c, $142f, $1827, $0c06
 
 	Pokemon CRAWDAUNT
-	Holds BLACKGLASSES
+	Holds BLACK_GLASSES
 	Moves HIDDEN_POWER, CRABHAMMER, SWORDS_DANCE, FRUSTRATION
 	Level 52
 	PP_Ups 0,0,0,0

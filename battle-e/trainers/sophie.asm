@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon KIRLIA
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves ATTRACT, PSYCHIC, HYPNOSIS, DREAM_EATER
 	Level 90
 	PP_Ups 0,0,0,0

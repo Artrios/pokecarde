@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0e1b, $0622, $ffff, $1611, $100a, $0c06
 
 	Pokemon PINSIR
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves SWORDS_DANCE, GUILLOTINE, EARTHQUAKE, BRICK_BREAK
 	Level 60
 	PP_Ups 0,0,0,0

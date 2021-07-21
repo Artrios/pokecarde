@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon PINSIR
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves GUILLOTINE, SUBMISSION, EARTHQUAKE, ROCK_TOMB
 	Level 64
 	PP_Ups 0,0,0,0

@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SCEPTILE
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves LEAF_BLADE, CRUNCH, DRAGON_CLAW, DOUBLE_TEAM
 	Level 50
 	PP_Ups 0,0,0,0

@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon CLAMPERL
-	Holds DEEPSEASCALE
+	Holds DEEP_SEA_SCALE
 	Moves WATER_PULSE, REFRESH, CONFUSE_RAY, WHIRLPOOL
 	Level 54
 	PP_Ups 0,0,0,0
