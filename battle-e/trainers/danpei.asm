@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TC_BLACK_BELT
 	BT_Floor 0
+	Text_EN "DANPEI"8
 	Text_JP "ダンペイ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0636, $1034, $0407, $020b, $1019, $0c01
+	Win_EN $2002, $1019, $0c00, $180f, $0e11, $1019
+	Loss_EN $0407, $1034, $180f, $0e36, $1210, $1019
 
 	Intro_JP $0636, $1034, $0407, $020b, $1019, $0c01
 	Win_JP $2002, $1019, $0c00, $180f, $0e11, $1019
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 1
 	PV $0000001C
+	Text_EN "LAIRON"11
 	Text_JP "コドラ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 30,31,14,15,15,14, 0
 	PV $000000E4
+	Text_EN "GRAVELER"11
 	Text_JP "ゴローン"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 0
 	PV $0000001C
+	Text_EN "SHELGON"11
 	Text_JP "コモルー"11
 	Friendship 255
 

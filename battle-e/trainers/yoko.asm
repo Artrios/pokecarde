@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db LASS
 	BT_Floor 0
+	Text_EN "YOKO"8
 	Text_JP "ヨウコ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $081c, $1643, $1643, $0e2a, $0418, $1021
+	Win_EN $0c32, $1032, $0c03, $0419, $26d5, $1021
+	Loss_EN $0c19, $0c00, $262d, $0e17, $0418, $103d
 
 	Intro_JP $081c, $1643, $1643, $0e2a, $0418, $1021
 	Win_JP $0c32, $1032, $0c03, $0419, $26d5, $1021
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,31,15,15,15, 0
 	PV $00000012
+	Text_EN "JIGGLYPUFF"11
 	Text_JP "プリン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,15, 0
 	PV $000000DA
+	Text_EN "SKITTY"11
 	Text_JP "エネコ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,31,15,15, 0
 	PV $00000012
+	Text_EN "LUVDISC"11
 	Text_JP "ラブカス"11
 	Friendship 255
 

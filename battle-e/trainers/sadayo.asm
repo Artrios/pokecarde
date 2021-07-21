@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
+	Text_EN "SADAYO"8
 	Text_JP "サダヨ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0a15, $020e, $0c03, $0a0c, $020e, $0c03
+	Win_EN $1243, $1430, $0c03, $1439, $1030, $0c06
+	Loss_EN $164c, $1041, $0c03, $143a, $1030, $0c00
 
 	Intro_JP $0a15, $020e, $0c03, $0a0c, $020e, $0c03
 	Win_JP $1243, $1430, $0c03, $1439, $1030, $0c06
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 1
 	PV $00000018
+	Text_EN "ELECTRODE"11
 	Text_JP "マルマイン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,31, 0
 	PV $0000000C
+	Text_EN "CLAYDOL"11
 	Text_JP "ネンドール"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $0000001C
+	Text_EN "SHEDINJA"11
 	Text_JP "ヌケニン"11
 	Friendship 255
 

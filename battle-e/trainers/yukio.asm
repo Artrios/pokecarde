@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BUG_CATCHER
 	BT_Floor 0
+	Text_EN "YUKIO"8
 	Text_JP "ユキオ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0461, $020e, $1034, $061e, $1642, $1602
+	Win_EN $0c3a, $0c00, $2010, $0461, $162a, $100f
+	Loss_EN $0c16, $0c00, $0a3a, $0461, $060a, $103f
 
 	Intro_JP $0461, $020e, $1034, $061e, $1642, $1602
 	Win_JP $0c3a, $0c00, $2010, $0461, $162a, $100f
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $0000001C
+	Text_EN "NINJASK"11
 	Text_JP "テッカニン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $000000E4
+	Text_EN "PINSIR"11
 	Text_JP "カイロス"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $000000E4
+	Text_EN "HERACROSS"11
 	Text_JP "ヘラクロス"11
 	Friendship 255
 

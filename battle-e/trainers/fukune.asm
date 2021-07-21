@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db HEX_MANIAC
 	BT_Floor 12
+	Text_EN "FUKUNE"8
 	Text_JP "フクネ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1e0f, $1219, $0c04, $201a, $102d, $0c05
+	Win_EN $0e2d, $26ae, $1034, $143a, $102d, $0c05
+	Loss_EN $0a48, $020e, $0e1d, $26ae, $0c06, $0c03
 
 	Intro_JP $1e0f, $1219, $0c04, $201a, $102d, $0c05
 	Win_JP $0e2d, $26ae, $1034, $143a, $102d, $0c05
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,20,31, 0
 	PV $00000093
+	Text_EN "DUSCLOPS"11
 	Text_JP "サマヨール"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,20,31, 0
 	PV $00000016
+	Text_EN "TORKOAL"11
 	Text_JP "コータス"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,20,31, 0
 	PV $00000080
+	Text_EN "SWAMPERT"11
 	Text_JP "ラグラージ"11
 	Friendship 255
 

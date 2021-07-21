@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db TRIATHLETE_F_SWIM
 	BT_Floor 0
+	Text_EN "NATSUKO"8
 	Text_JP "ナツコ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $2723, $1628, $0e29, $141b, $0e0b, $1225
+	Win_EN $2723, $1621, $ffff, $0408, $0408, $020f
+	Loss_EN $123a, $0408, $1014, $1034, $0c06, $121b
 
 	Intro_JP $2723, $1628, $0e29, $141b, $0e0b, $1225
 	Win_JP $2723, $1621, $ffff, $0408, $0408, $020f
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 0
 	PV $0000000F
+	Text_EN "LANTURN"11
 	Text_JP "ランターン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 0
 	PV $00000095
+	Text_EN "HUNTAIL"11
 	Text_JP "ハンテール"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,31,15,15,31, 0
 	PV $00000080
+	Text_EN "RELICANTH"11
 	Text_JP "ジーランス"11
 	Friendship 255
 

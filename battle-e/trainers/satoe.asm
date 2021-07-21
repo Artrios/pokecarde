@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db PSYCHIC_F
 	BT_Floor 12
+	Text_EN "SATOE"8
 	Text_JP "サトエ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $26b6, $0e0c, $0e1d, $0e12, $1225, $103e
+	Win_EN $26b6, $061e, $1034, $0619, $1032, $0c00
+	Loss_EN $0408, $0408, $1610, $0637, $0827, $1018
 
 	Intro_JP $26b6, $0e0c, $0e1d, $0e12, $1225, $103e
 	Win_JP $26b6, $061e, $1034, $0619, $1032, $0c00
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $0000000F
+	Text_EN "ALAKAZAM"11
 	Text_JP "フーディン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 1
 	PV $000000E0
+	Text_EN "GOLDUCK"11
 	Text_JP "ゴルダック"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 1
 	PV $0000000F
+	Text_EN "MAGNETON"11
 	Text_JP "レアコイル"11
 	Friendship 255
 

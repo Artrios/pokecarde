@@ -5,10 +5,6 @@ end: MACRO
 return: MACRO
 	db $03
 	ENDM
-call: MACRO
-	db $04
-	dd \1
-	ENDM
 goto: MACRO
 	db $05
 	dd \1

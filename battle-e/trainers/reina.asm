@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_RANGER_F
 	BT_Floor 0
+	Text_EN "REINA"8
 	Text_JP "レイナ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1a2b, $0e28, $0e14, $1236, $063e, $1017
+	Win_EN $1c18, $0a34, $1012, $0e21, $0606, $1022
+	Loss_EN $1c18, $0a34, $1012, $062e, $0e1f, $1405
 
 	Intro_JP $1a2b, $0e28, $0e14, $1236, $063e, $1017
 	Win_JP $1c18, $0a34, $1012, $0e21, $0606, $1022
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 1
 	PV $00000080
+	Text_EN "MAWILE"11
 	Text_JP "クチート"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,31, 1
 	PV $0000000F
+	Text_EN "GOLDUCK"11
 	Text_JP "ゴルダック"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,0,15,15,15, 0
 	PV $00000080
+	Text_EN "TROPIUS"11
 	Text_JP "トロピウス"11
 	Friendship 255
 

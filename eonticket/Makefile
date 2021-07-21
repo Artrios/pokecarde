@@ -1,4 +1,4 @@
-all: 00-C000-DE.z80 00-C000-EN.z80 verify
+all: 00-C000-EN.z80 verify
 verify:
 	md5sum --check eonticket.md5
 
@@ -31,6 +31,10 @@ prologue-%.bin: prologue-%.gbc
 	./rgblink -o $@ $<
 00-C000-%.z80: 00-C000-%.gbc
 	python ../scripts/stripgbc.py $< $@
+00-C000-%.vpk: 00-C000-%.z80
+	./nevpk -c -i $< -o $@
+00-C000-%.raw: 00-C000-%.vpk
+	./nedcmake -i $< -o $@ -type 1 -region 1
 
 clean:
-	rm -f *.tx *.o *.gbc *.z80 *.bin *.mev
+	rm -f *.tx *.o *.gbc *.z80 *.bin *.mev *.vpk *.raw
