@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db EXPERT_M
 	BT_Floor 5
+	Text_EN "FUGEN"8
 	Text_JP "フゲン"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1620, $140f, $1005, $0a28, $061d, $0c05
+	Win_EN $24b3, $1034, $0612, $1e1b, $100b, $0c01
+	Loss_EN $141a, $100b, $0c00, $0e2d, $24b3, $0c01
 
 	Intro_JP $1620, $140f, $1005, $0a28, $061d, $0c05
 	Win_JP $24b3, $1034, $0612, $1e1b, $100b, $0c01
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,20,20,31,31,20, 0
 	PV $0000001D
+	Text_EN "RAICHU"11
 	Text_JP "ライチュウ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,31,20,20, 0
 	PV $00000080
+	Text_EN "MEDICHAM"11
 	Text_JP "チャーレム"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,20,31,20,20, 0
 	PV $000000E2
+	Text_EN "BLAZIKEN"11
 	Text_JP "バシャーモ"11
 	Friendship 255
 

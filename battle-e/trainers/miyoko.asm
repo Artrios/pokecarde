@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db AROMA_LADY
 	BT_Floor 0
+	Text_EN "MIYOKO"8
 	Text_JP "ミヨコ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0a02, $041c, $020e, $1222, $1004, $0c03
+	Win_EN $041c, $020e, $1443, $061d, $1014, $1021
+	Loss_EN $2538, $0e1d, $ffff, $1405, $1021, $ffff
 
 	Intro_JP $0a02, $041c, $020e, $1222, $1004, $0c03
 	Win_JP $041c, $020e, $1443, $061d, $1014, $1021
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,31,15, 0
 	PV $000000DC
+	Text_EN "CACTURNE"11
 	Text_JP "ノクタス"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,15,31, 1
 	PV $00000014
+	Text_EN "LUDICOLO"11
 	Text_JP "ルンパッパ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $000000D7
+	Text_EN "SCEPTILE"11
 	Text_JP "ジュカイン"11
 	Friendship 255
 

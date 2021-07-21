@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db COOLTRAINER_F
 	BT_Floor 12
+	Text_EN "UMAMI"8
 	Text_JP "ウマミ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0a48, $020e, $0e28, $0e14, $060a, $1044
+	Win_EN $0c04, $103c, $122d, $0628, $1014, $0c3d
+	Loss_EN $0a48, $0212, $0e1f, $060a, $0e24, $0c05
 
 	Intro_JP $0a48, $020e, $0e28, $0e14, $060a, $1044
 	Win_JP $0c04, $103c, $122d, $0628, $1014, $0c3d
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,31,20,20,20, 0
 	PV $0000001C
+	Text_EN "ARMALDO"11
 	Text_JP "アーマルド"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,31,20,20,20, 1
 	PV $000000E4
+	Text_EN "AGGRON"11
 	Text_JP "ボスゴドラ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,20,20,31,20, 0
 	PV $0000001B
+	Text_EN "METAGROSS"11
 	Text_JP "メタグロス"11
 	Friendship 255
 

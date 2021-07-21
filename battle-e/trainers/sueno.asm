@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db HEX_MANIAC
 	BT_Floor 0
+	Text_EN "SUENO"8
 	Text_JP "スエノ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1c07, $0e16, $103e, $0626, $102a, $0c00
+	Win_EN $0626, $102a, $0e1d, $1610, $1430, $0c03
+	Loss_EN $0626, $1430, $0a05, $0605, $1018, $0c04
 
 	Intro_JP $1c07, $0e16, $103e, $0626, $102a, $0c00
 	Win_JP $0626, $102a, $0e1d, $1610, $1430, $0c03
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,15,31, 0
 	PV $00000021
+	Text_EN "WOBBUFFET"11
 	Text_JP "ソーナンス"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,31,15,15,31, 0
 	PV $000000E6
+	Text_EN "DUSCLOPS"11
 	Text_JP "サマヨール"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,15,31, 1
 	PV $000000E9
+	Text_EN "NOSEPASS"11
 	Text_JP "ノズパス"11
 	Friendship 255
 

@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db POKEFAN_F
 	BT_Floor 0
+	Text_EN "SHIGEKO"8
 	Text_JP "シゲコ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0e1b, $1e14, $020e, $0418, $100b, $142f
+	Win_EN $1e0a, $1034, $020e, $1a24, $1239, $1021
+	Loss_EN $062e, $0e1f, $0418, $020e, $1030, $103e
 
 	Intro_JP $0e1b, $1e14, $020e, $0418, $100b, $142f
 	Win_JP $1e0a, $1034, $020e, $1a24, $1239, $1021
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 0
 	PV $0000000C
+	Text_EN "WAILMER"11
 	Text_JP "ホエルコ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 1
 	PV $000000E0
+	Text_EN "SEEDOT"11
 	Text_JP "タネボー"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $00000013
+	Text_EN "PIKACHU"11
 	Text_JP "ピカチュウ"11
 	Friendship 255
 

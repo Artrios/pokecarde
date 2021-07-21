@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db COOLTRAINER_M
 	BT_Floor 12
+	Text_EN "IHARA"8
 	Text_JP "イハラ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0a1b, $0606, $0e0c, $142f, $1023, $0e08
+	Win_EN $24cf, $0605, $1034, $1404, $061d, $1020
+	Loss_EN $24cf, $0e16, $100b, $060a, $1023, $1032
 
 	Intro_JP $0a1b, $0606, $0e0c, $142f, $1023, $0e08
 	Win_JP $24cf, $0605, $1034, $1404, $061d, $1020
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,20,20,31,31,20, 1
 	PV $0000000F
+	Text_EN "SHIFTRY"11
 	Text_JP "ダーテング"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,31,20, 0
 	PV $0000000F
+	Text_EN "WAILORD"11
 	Text_JP "ホエルオー"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,20,20,20,20, 0
 	PV $00000080
+	Text_EN "SLAKING"11
 	Text_JP "ケッキング"11
 	Friendship 255
 

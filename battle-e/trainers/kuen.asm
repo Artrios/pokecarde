@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db DRAGON_TAMER
 	BT_Floor 19
+	Text_EN "KUEN"8
 	Text_JP "クエン"8
 	OT_ID 00000, 00000
+
+	Intro_EN $1624, $1034, $063e, $1643, $1007, $0c00
+	Win_EN $142b, $1034, $2751, $0e2a, $1011, $0c00
+	Loss_EN $1209, $0c04, $ffff, $0a48, $2751, $0c06
 
 	Intro_JP $1624, $1034, $063e, $1643, $1007, $0c00
 	Win_JP $142b, $1034, $2751, $0e2a, $1011, $0c00
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,20,20,31,31,20, 0
 	PV $00000019
+	Text_EN "SALAMENCE"11
 	Text_JP "ボーマンダ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,20,20,20,31,20, 0
 	PV $000000E2
+	Text_EN "AGGRON"11
 	Text_JP "ボスゴドラ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 20,31,20,31,20,20, 0
 	PV $0000000F
+	Text_EN "SCEPTILE"11
 	Text_JP "ジュカイン"11
 	Friendship 255
 

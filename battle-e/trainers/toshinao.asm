@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db NINJA_BOY
 	BT_Floor 0
+	Text_EN "TOSHINA"8
 	Text_JP "トシナオ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0812, $102d, $0c00, $1e15, $0c00, $ffff
+	Win_EN $265c, $1034, $0619, $102d, $0c00, $ffff
+	Loss_EN $265c, $0e1f, $0c04, $201c, $102d, $0c04
 
 	Intro_JP $0812, $102d, $0c00, $1e15, $0c00, $ffff
 	Win_JP $265c, $1034, $0619, $102d, $0c00, $ffff
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,31,15,15,15, 0
 	PV $0000008C
+	Text_EN "TENTACRUEL"11
 	Text_JP "ドククラゲ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,31, 0
 	PV $00000080
+	Text_EN "WEEZING"11
 	Text_JP "マタドガス"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,15,31, 0
 	PV $0000001C
+	Text_EN "CROBAT"11
 	Text_JP "クロバット"11
 	Friendship 255
 

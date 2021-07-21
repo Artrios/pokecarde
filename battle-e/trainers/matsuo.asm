@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db RICH_BOY
 	BT_Floor 0
+	Text_EN "MATSUO"8
 	Text_JP "マツオ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0e31, $0418, $020e, $0e0b, $0602, $0c00
+	Win_EN $0e31, $1427, $100c, $0a1d, $020e, $0c00
+	Loss_EN $1c12, $0e0b, $0e31, $0620, $020e, $1645
 
 	Intro_JP $0e31, $0418, $020e, $0e0b, $0602, $0c00
 	Win_JP $0e31, $1427, $100c, $0a1d, $020e, $0c00
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,31,15, 0
 	PV $00000011
+	Text_EN "SPHEAL"11
 	Text_JP "タマザラシ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,31,15, 0
 	PV $0000001B
+	Text_EN "JIGGLYPUFF"11
 	Text_JP "プリン"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,31,15, 1
 	PV $0000001F
+	Text_EN "MARILL"11
 	Text_JP "マリル"11
 	Friendship 255
 

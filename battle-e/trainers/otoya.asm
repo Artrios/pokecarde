@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db BIRD_KEEPER
 	BT_Floor 0
+	Text_EN "OTOYA"8
 	Text_JP "オトヤ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $0601, $0c00, $0a3a, $2413, $0a34, $0c01
+	Win_EN $0c37, $1419, $0c00, $0a3d, $1421, $100f
+	Loss_EN $1231, $0c04, $ffff, $2007, $2007, $0c04
 
 	Intro_JP $0601, $0c00, $0a3a, $2413, $0a34, $0c01
 	Win_JP $0c37, $1419, $0c00, $0a3d, $1421, $100f
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 0
 	PV $000000E3
+	Text_EN "TROPIUS"11
 	Text_JP "トロピウス"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,15,15,15,15,15, 0
 	PV $0000000C
+	Text_EN "XATU"11
 	Text_JP "ネイティオ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 0
 	PV $00000080
+	Text_EN "SKARMORY"11
 	Text_JP "エアームド"11
 	Friendship 255
 

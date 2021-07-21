@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db PKMN_BREEDER_M
 	BT_Floor 0
+	Text_EN "SHIGENO"8
 	Text_JP "シゲノブ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $020e, $2204, $1c17, $0a3a, $2200, $1643
+	Win_EN $020e, $2204, $0619, $1e04, $0c03, $1429
+	Loss_EN $2200, $1621, $1207, $1e03, $0628, $1014
 
 	Intro_JP $020e, $2204, $1c17, $0a3a, $2200, $1643
 	Win_JP $020e, $2204, $0619, $1e04, $0c03, $1429
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,15,31, 0
 	PV $0000006E
+	Text_EN "TORCHIC"11
 	Text_JP "アチャモ"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,31,15,15,15,15, 0
 	PV $00000010
+	Text_EN "BEAUTIFLY"11
 	Text_JP "アゲハント"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 31,15,15,15,31,15, 1
 	PV $00000091
+	Text_EN "SPOINK"11
 	Text_JP "バネブー"11
 	Friendship 255
 

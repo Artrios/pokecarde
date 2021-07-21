@@ -5,8 +5,13 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 50
 	db NINJA_BOY
 	BT_Floor 5
+	Text_EN "RUIZO"8
 	Text_JP "ルイゾウ"8
 	OT_ID 00000, 00000
+
+	Intro_EN $2805, $0c00, $ffff, $180f, $1621, $1037
+	Win_EN $0632, $162d, $1022, $2732, $1422, $0c00
+	Loss_EN $0c09, $0c06, $ffff, $120d, $2732, $0c04
 
 	Intro_JP $2805, $0c00, $ffff, $180f, $1621, $1037
 	Win_JP $0632, $162d, $1022, $2732, $1422, $0c00
@@ -21,6 +26,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,15,15,31, 0
 	PV $0000001C
+	Text_EN "SANDSLASH"11
 	Text_JP "サンドパン"11
 	Friendship 255
 
@@ -33,6 +39,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $000000E4
+	Text_EN "VIGOROTH"11
 	Text_JP "ヤルキモノ"11
 	Friendship 255
 
@@ -45,6 +52,7 @@ INCLUDE "trainers/macros.asm"
 	OT_ID 00000, 00000
 	IVs 15,31,15,31,15,15, 0
 	PV $000000E4
+	Text_EN "ZANGOOSE"11
 	Text_JP "ザングース"11
 	Friendship 255
 
