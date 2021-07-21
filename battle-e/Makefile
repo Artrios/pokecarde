@@ -43,7 +43,7 @@ berries/%.mev: berries/%.bin
 prologue-%.tx: prologue.asm
 	python ../scripts/regionalize.py $< $@ $* $*
 prologue-%.o: prologue-%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 prologue-%.gbc: prologue-%.o
 	./rgblink -o $@ $<
 prologue-%.bin: prologue-%.gbc
