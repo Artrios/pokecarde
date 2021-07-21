@@ -15,9 +15,9 @@ verify:
 trainers/%-EN.tx: trainers/%.asm
 	python ../scripts/regionalize.py $< $@ EN EN
 trainers/%.o: trainers/%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 trainers/%.gbc: trainers/%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 trainers/%.bin: trainers/%.gbc
 	python ../scripts/stripgbc.py $< $@
 trainers/%.z80: trainers/%.gbc
@@ -29,9 +29,9 @@ trainers/%.mev: trainers/%.bin
 berries/%-EN.tx: berries/%.asm
 	python ../scripts/regionalize.py $< $@ EN EN
 berries/%.o: berries/%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 berries/%.gbc: berries/%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 berries/%.bin: berries/%.gbc
 	python ../scripts/stripgbc.py $< $@
 berries/%.z80: berries/%.gbc
@@ -43,9 +43,9 @@ berries/%.mev: berries/%.bin
 prologue-%.tx: prologue.asm
 	python ../scripts/regionalize.py $< $@ $* $*
 prologue-%.o: prologue-%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 prologue-%.gbc: prologue-%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 prologue-%.bin: prologue-%.gbc
 	python ../scripts/stripgbc.py $< $@
 
@@ -55,9 +55,9 @@ battletrainer-%.tx: battletrainer.asm prologue-%.bin
 08-A%-EN.tx: 08-A%.asm battletrainer-EN.tx
 	python ../scripts/ereadertext.py $< $@ EN
 08-A%.o: 08-A%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 08-A%.gbc: 08-A%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 08-A%.z80: 08-A%.gbc
 	python ../scripts/stripgbc.py $< $@
 08-A%.vpk: 08-A%.z80
@@ -71,9 +71,9 @@ enigmaberry-%.tx: enigmaberry.asm prologue-%.bin
 08-K%-EN.tx: 08-K%.asm enigmaberry-EN.tx
 	python ../scripts/ereadertext.py $< $@ EN
 08-K%.o: 08-K%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 08-K%.gbc: 08-K%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 08-K%.z80: 08-K%.gbc
 	python ../scripts/stripgbc.py $< $@
 08-K%.vpk: 08-K%.z80

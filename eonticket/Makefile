@@ -6,9 +6,9 @@ verify:
 eonticket-%.tx: eonticket.asm
 	python ../scripts/regionalize.py $< $@ $* $*
 eonticket-%.o: eonticket-%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 eonticket-%.gbc: eonticket-%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 eonticket-%.bin: eonticket-%.gbc
 	python ../scripts/stripgbc.py $< $@
 eonticket-%.mev: eonticket-%.bin
@@ -17,18 +17,18 @@ eonticket-%.mev: eonticket-%.bin
 prologue-%.tx: prologue.asm
 	python ../scripts/regionalize.py $< $@ $* $*
 prologue-%.o: prologue-%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 prologue-%.gbc: prologue-%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 prologue-%.bin: prologue-%.gbc
 	python ../scripts/stripgbc.py $< $@
 
 00-C000-%.tx: 00-C000.asm eonticket-%.mev prologue-%.bin
 	python ../scripts/ereadertext.py $< $@ $*
 00-C000-%.o: 00-C000-%.tx
-	rgbasm -o $@ $<
+	./rgbasm -o $@ $<
 00-C000-%.gbc: 00-C000-%.o
-	rgblink -o $@ $<
+	./rgblink -o $@ $<
 00-C000-%.z80: 00-C000-%.gbc
 	python ../scripts/stripgbc.py $< $@
 
