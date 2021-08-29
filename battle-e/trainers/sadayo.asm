@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SHEDINJA
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves SPITE, CONFUSE_RAY, SHADOW_BALL, HYPER_BEAM
 	Level 64
 	PP_Ups 0,0,0,0

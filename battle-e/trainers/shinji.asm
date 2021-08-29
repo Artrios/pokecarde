@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon DUSTOX
-	Holds SILVERPOWDER
+	Holds SILVER_POWDER
 	Moves TOXIC, PROTECT, SILVER_WIND, PSYCHIC
 	Level 91
 	PP_Ups 0,0,0,0

@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0811, $0c00, $ffff, $1400, $0628, $1014
 
 	Pokemon SEVIPER
-	Holds BLACKGLASSES
+	Holds BLACK_GLASSES
 	Moves CRUNCH, HAZE, DOUBLE_TEAM, GLARE
 	Level 70
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SHARPEDO
-	Holds BLACKGLASSES
+	Holds BLACK_GLASSES
 	Moves CRUNCH, SLASH, SURF, SWAGGER
 	Level 71
 	PP_Ups 0,0,0,0
@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GIRAFARIG
-	Holds BLACKGLASSES
+	Holds BLACK_GLASSES
 	Moves CRUNCH, DOUBLE_TEAM, REST, CALM_MIND
 	Level 72
 	PP_Ups 0,0,0,0

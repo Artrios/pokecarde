@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon BRELOOM
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves FOCUS_PUNCH, SLUDGE_BOMB, IRON_TAIL, SPORE
 	Level 50
 	PP_Ups 0,0,0,0

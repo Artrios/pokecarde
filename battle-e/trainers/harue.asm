@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0c0a, $0c00, $0a01, $1034, $0175, $0c04
 
 	Pokemon CLAMPERL
-	Holds DEEPSEASCALE
+	Holds DEEP_SEA_SCALE
 	Moves RAIN_DANCE, CONFUSE_RAY, TOXIC, PROTECT
 	Level 71
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon HUNTAIL
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves RAIN_DANCE, HYDRO_PUMP, CRUNCH, ROCK_TOMB
 	Level 73
 	PP_Ups 0,0,0,0

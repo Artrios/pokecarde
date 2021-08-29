@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0c16, $0c00, $0a3a, $0461, $060a, $103f
 
 	Pokemon NINJASK
-	Holds SILVERPOWDER
+	Holds SILVER_POWDER
 	Moves SWORDS_DANCE, PROTECT, BATON_PASS, SILVER_WIND
 	Level 70
 	PP_Ups 0,0,0,0

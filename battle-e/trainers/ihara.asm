@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $24cf, $0e16, $100b, $060a, $1023, $1032
 
 	Pokemon SHIFTRY
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves SWAGGER, EXTRASENSORY, FAINT_ATTACK, GROWTH
 	Level 100
 	PP_Ups 0,0,0,0

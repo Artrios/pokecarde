@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0e36, $044a, $103c, $1606, $103f, $0c04
 
 	Pokemon SABLEYE
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves SHADOW_BALL, KNOCK_OFF, FAINT_ATTACK, CONFUSE_RAY
 	Level 75
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GRUMPIG
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves PSYCHIC, REST, SNORE, FLASH
 	Level 80
 	PP_Ups 0,0,0,3
@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon CLAMPERL
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves SURF, DOUBLE_TEAM, ICE_BEAM, IRON_DEFENSE
 	Level 85
 	PP_Ups 0,0,0,0

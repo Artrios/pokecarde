@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GARDEVOIR
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves PSYCHIC, CALM_MIND, DOUBLE_TEAM, DESTINY_BOND
 	Level 89
 	PP_Ups 0,0,0,0

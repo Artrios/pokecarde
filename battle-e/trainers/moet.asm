@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $123a, $020e, $0e1f, $060a, $0e24, $0c04
 
 	Pokemon RALTS
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves FUTURE_SIGHT, WILL_O_WISP, LIGHT_SCREEN, TOXIC
 	Level 69
 	PP_Ups 0,0,0,0
@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon KIRLIA
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves FUTURE_SIGHT, DESTINY_BOND, REFLECT, SHADOW_BALL
 	Level 72
 	PP_Ups 0,0,0,0

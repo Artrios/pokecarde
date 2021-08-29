@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon AGGRON
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves HYPER_BEAM, AERIAL_ACE, EARTHQUAKE, ROCK_TOMB
 	Level 94
 	PP_Ups 0,0,0,0
@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon SALAMENCE
-	Holds KING_S_ROCK
+	Holds KINGS_ROCK
 	Moves HYPER_BEAM, DRAGON_CLAW, EARTHQUAKE, CRUNCH
 	Level 96
 	PP_Ups 0,0,0,0

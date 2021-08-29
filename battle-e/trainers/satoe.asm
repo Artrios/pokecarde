@@ -18,7 +18,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $0408, $0408, $1610, $0637, $0827, $1018
 
 	Pokemon ALAKAZAM
-	Holds TWISTEDSPOON
+	Holds TWISTED_SPOON
 	Moves REFLECT, LIGHT_SCREEN, ICE_PUNCH, PSYCHIC
 	Level 50
 	PP_Ups 0,0,0,0

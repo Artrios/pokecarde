@@ -31,7 +31,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon GOLDUCK
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves SURF, ICE_BEAM, AERIAL_ACE, PSYCHIC
 	Level 57
 	PP_Ups 0,0,0,0

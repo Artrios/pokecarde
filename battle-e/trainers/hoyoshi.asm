@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon MILOTIC
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves RECOVER, SURF, CONFUSE_RAY, MIRROR_COAT
 	Level 100
 	PP_Ups 0,0,0,0

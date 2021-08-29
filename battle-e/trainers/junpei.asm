@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon KINGDRA
-	Holds BLACKGLASSES
+	Holds BLACK_GLASSES
 	Moves DRAGONBREATH, SURF, ICE_BEAM, HIDDEN_POWER
 	Level 54
 	PP_Ups 0,0,0,0

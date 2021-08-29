@@ -44,7 +44,7 @@ INCLUDE "trainers/macros.asm"
 	Friendship 255
 
 	Pokemon DUGTRIO
-	Holds BRIGHTPOWDER
+	Holds BRIGHT_POWDER
 	Moves FISSURE, EARTHQUAKE, DOUBLE_TEAM, ROCK_SLIDE
 	Level 60
 	PP_Ups 0,0,0,3
