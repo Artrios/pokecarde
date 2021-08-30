@@ -36,7 +36,7 @@ INCLUDE "trainers/macros.asm"
 	Level 50
 	PP_Ups 0,0,0,0
 	EVs 6,0,0,252,252,0
-	OT_ID 00000, 00000
+	OT_ID 00140, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $000000D7
 	Text_EN "MANETRIC"11

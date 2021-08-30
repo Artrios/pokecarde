@@ -49,7 +49,7 @@ INCLUDE "trainers/macros.asm"
 	Level 74
 	PP_Ups 0,0,0,0
 	EVs 252,0,6,0,0,252
-	OT_ID 00000, 00000
+	OT_ID 00008, 00000
 	IVs 31,15,31,15,15,31, 0
 	PV $00000080
 	Text_EN "RELICANTH"11

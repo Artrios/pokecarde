@@ -49,7 +49,7 @@ INCLUDE "trainers/macros.asm"
 	Level 75
 	PP_Ups 0,0,0,0
 	EVs 0,0,0,255,255,0
-	OT_ID 00000, 00000
+	OT_ID 00015, 00000
 	IVs 15,15,15,31,31,15, 0
 	PV $0000000F
 	Text_EN "GARDEVOIR"11
