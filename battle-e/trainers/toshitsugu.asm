@@ -49,7 +49,7 @@ INCLUDE "trainers/macros.asm"
 	Level 58
 	PP_Ups 0,0,0,0
 	EVs 0,0,255,0,0,255
-	OT_ID 00000, 00000
+	OT_ID 00008, 00000
 	IVs 15,15,31,15,15,31, 0
 	PV $00000007
 	Text_EN "CRADILY"11

@@ -49,7 +49,7 @@ INCLUDE "trainers/macros.asm"
 	Level 88
 	PP_Ups 0,0,0,0
 	EVs 252,252,6,0,0,0
-	OT_ID 00000, 00000
+	OT_ID 08888, 00000
 	IVs 31,15,15,15,15,15, 0
 	PV $88888888
 	Text_EN "SPINDA"11
