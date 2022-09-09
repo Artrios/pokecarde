@@ -29,6 +29,51 @@ LD_IND_HL_A: MACRO
 	db $77
 	ENDM
 
+; ld a, [hl]
+LD_IND_A_HL: MACRO
+	db $7E
+	ENDM
+
+; ld c, [hl]
+LD_IND_C_HL: MACRO
+	db $4E
+	ENDM
+
+; ld b, [hl]
+LD_IND_B_HL: MACRO
+	db $46
+	ENDM
+
+; ld l, [hl]
+LD_IND_L_HL: MACRO
+	db $6E
+	ENDM
+
+; ld e, [hl]
+LD_IND_E_HL: MACRO
+	db $5E
+	ENDM
+
+; ld d, [hl]
+LD_IND_D_HL: MACRO
+	db $56
+	ENDM
+
+; ld [hl], c
+LD_IND_HL_C: MACRO
+	db $71
+	ENDM
+
+; ld [hl], b
+LD_IND_HL_B: MACRO
+	db $70
+	ENDM
+
+; ld a, [de]
+LD_IND_A_DE: MACRO
+	db $1A
+	ENDM
+
 ; add a, [hl]
 ADD_A_HL_IND: MACRO
 	db $86
@@ -108,6 +153,7 @@ BATTLE_TRAINER   EQU $0D
 CLOCK_ADJUSTMENT EQU $0E
 CHECKSUM_BYTES   EQU $0F ; don’t use this
 CHECKSUM_CRC     EQU $10 ; use this instead
+DOME_TRAINER     EQU $11 ; Battle Dome trainer
 
 ; an FF byte followed by 00s will flag the end of the program so that it can
 ; be extracted automatically from the Game Boy ROM that rgbds tries to build
@@ -121,6 +167,18 @@ EOF: MACRO
 FadeIn: MACRO
 	ld a, \1
 	API $000
+	ENDM
+SetBackgroundAutoScroll: MACRO
+	ld bc, \1
+	ld de, \2
+	xor a
+	API $012
+	ENDM
+SetBackgroundMode: MACRO
+	ld e, \1
+	push de
+	xor a
+	API $019
 	ENDM
 API_02C: MACRO
 	ld hl, $0000
@@ -167,6 +225,12 @@ CreateCustomSprite: MACRO
 	ld hl, \3
 	API $04D
 	LD_IND_HL \1
+	ENDM
+SpriteAutoScaleUntilSize: MACRO
+	ld c, \2
+	ld de, \3
+	LD_HL_IND \1
+	API $05B
 	ENDM
 SetBackgroundPalette: MACRO
 	ld c, \1
@@ -217,6 +281,11 @@ API_09B: MACRO
 	ld de, \2
 	LD_A_IND \1
 	API $09B
+	ENDM
+GetTextWidth: MACRO
+	ld de, \2
+	LD_A_IND \1
+	API $0C0
 	ENDM
 API_0C7: MACRO
 	ld hl, \1
