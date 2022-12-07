@@ -19,7 +19,7 @@ Prologue:
 
 ; The data chunks from decoration-tickets.asm
 DataPacket:
-    INCBIN "decoration-tickets-{REGION_NAME}.mev"
+    INCBIN "tickets-{REGION_NAME}.mev"
 
 ; Pointers to the data chunks found in decoration.asm
 ; Currently needs to be changed manually
