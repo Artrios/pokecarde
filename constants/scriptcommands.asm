@@ -131,6 +131,10 @@ checkpcitem: MACRO
 	db $4A
 	dw \1, \2
 	ENDM
+adddecoration: MACRO
+	db $4b
+	dw \1
+	ENDM
 faceplayer: MACRO
 	db $5A
 	ENDM
