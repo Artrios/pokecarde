@@ -35,18 +35,18 @@ prologue-%.bin: prologue-%.gbc
 	./nedcmake -i $< -o $@ -type 1 -region 1
 	mv $@-01.raw $@
 
-decoration-tickets-%.tx: decoration-tickets.asm
+tickets-%.tx: tickets.asm
 	python ../scripts/regionalize.py $< $@ $* $*
-decoration-tickets-%.o: decoration-tickets-%.tx
+tickets-%.o: tickets-%.tx
 	./rgbasm -o $@ $<
-decoration-tickets-%.gbc: decoration-tickets-%.o
+tickets-%.gbc: tickets-%.o
 	./rgblink -o $@ $<
-decoration-tickets-%.bin: decoration-tickets-%.gbc
+tickets-%.bin: tickets-%.gbc
 	python ../scripts/stripgbc.py $< $@
-decoration-tickets-%.mev: decoration-tickets-%.bin
+tickets-%.mev: tickets-%.bin
 	python ../scripts/checksum_regi.py $< $@
 
-08-O002-%.tx: 08-O002.asm decoration-tickets-%.mev prologue-%.bin
+08-O002-%.tx: 08-O002.asm tickets-%.mev prologue-%.bin
 	python ../scripts/ereadertext.py $< $@ $*
 08-O002-%.o: 08-O002-%.tx
 	./rgbasm -o $@ $<
