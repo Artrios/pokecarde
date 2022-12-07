@@ -119,6 +119,10 @@ checkflag: MACRO
 getpartysize: MACRO
 	db $43
 	ENDM
+additem: MACRO
+	db $44
+	dw \1, \2
+	ENDM
 checkitemroom: MACRO
 	db $46
 	dw \1, \2
