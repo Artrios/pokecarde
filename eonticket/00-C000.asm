@@ -22,16 +22,15 @@ SpriteData:
 	db $15,$08,$01,$01,$01,$01,$01 ; width 15, height 8
 
 Instructions1: ; 1921
-	db "Link e-Reader to Pokémon Ruby or \n"
-	db "Sapphire and select MYSTERY EVENTS\n"
-	db "on the game's main menu.\n"
+	db "Link e-Reader to Pokémon Emerald\n"
+	db "and select MYSTERY EVENTS on the\n"
+	db "game's main menu.\n"
 	db "Press the B Button to cancel.\0"
 
 Instructions2: ; 199d
 	db "Press the A Button on the Game Boy\n"
-	db "Advance containing Pokémon Ruby or\n"
-	db "Sapphire to begin sending the EON\n"
-	db "TICKET.\0"
+	db "Advance containing Pokémon Emerald\n"
+	db "to begin sending the EON TICKET.\0"
 
 DeliveryInProcess: ; 1a0d
 	db "EON TICKET delivery in Process...\0"

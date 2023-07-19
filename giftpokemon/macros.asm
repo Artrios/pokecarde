@@ -13,7 +13,7 @@ Battle_Trainer: MACRO
 	Section "battle",ROM0[$100]
 	db $01
 	dd $02000000
-	db REGION,0,REGION,0,0,0,$04,0,$80,$01,0,0
+	db REGION,0,REGION,0,0,0,$04,0,$00,$02,0,0
 	db $0D
 	dd $02000018
 	db $02,$00

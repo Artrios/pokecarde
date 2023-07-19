@@ -42,7 +42,7 @@ RegirockEnd:
 
 
 DataStartRegice:
-	db $01,$00,$00,$00,$02,$02,$00,$02,$00,$00,$00,$04,$00,$80,$01,$00,$00 ; Mystery_Event
+	db $01,$00,$00,$00,$02,$02,$00,$02,$00,$00,$00,$04,$00,$00,$02,$00,$00 ; Mystery_Event
 	db CHECKSUM_CRC
 	dd 0 ; checksum placeholder
 	GBAPTR ScriptStartRegirock
@@ -80,7 +80,7 @@ RegiceEnd:
 	db $00,$00,$00
 
 DataStartRegisteel:
-	db $01,$00,$00,$00,$02,$02,$00,$02,$00,$00,$00,$04,$00,$80,$01,$00,$00 ; Mystery_Event
+	db $01,$00,$00,$00,$02,$02,$00,$02,$00,$00,$00,$04,$00,$00,$02,$00,$00 ; Mystery_Event
 	db CHECKSUM_CRC
 	dd 0 ; checksum placeholder
 	GBAPTR ScriptStartRegirock

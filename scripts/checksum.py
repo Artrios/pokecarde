@@ -26,7 +26,7 @@ while i < len(data):
 		bytewises.append([start_address + 0x52C, start_address, start_address + 0x52C])
 	elif chunk_type == 0x0D: # BATTLE_TRAINER
 		start_address = struct.unpack('<I', data[i+1:i+5])[0] - base_address
-		wordwises.append([start_address + 0x13C, start_address, start_address + 0x13C])
+		wordwises.append([start_address + 0xB8, start_address, start_address + 0xB8])
 	elif chunk_type == 0x0F: # CHECKSUM_BYTES
 		start_address = struct.unpack('<I', data[i+5:i+9])[0] - base_address
 		end_address = struct.unpack('<I', data[i+9:i+13])[0] - base_address
