@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "NUTPEA"7
+	Text_EN "NUTPEA@"7
 	Firmness SUPER_HARD
 	Size 12,4
 	Yield_Range 1, 3

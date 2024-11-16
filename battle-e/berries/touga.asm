@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "CHIPEP@"7
+	Text_EN "REPED@@"7
 	;Text_JP "トウガ@@@@"7
 	Firmness SUPER_HARD
 	Size 15,3
@@ -21,8 +21,8 @@ BerryPalette:
 	Text_EN "This BERRY is amazingly spicy."45
 	Text_EN "No one has been able to eat it whole."45
 	
-	Text_JP "とてつもなく　からい。　１どに　まるごと"45
-	Text_JP "たべられた　ひとは　まだ　だれも　いない。"45	
+	;Text_JP "とてつもなく　からい。　１どに　まるごと"45
+	;Text_JP "たべられた　ひとは　まだ　だれも　いない。"45	
 
 	db 0,0,0
 	db $01 ; cures confusion

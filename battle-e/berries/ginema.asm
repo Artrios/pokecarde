@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "ONYON@@"7
+	Text_EN "NIONIO@"7
 	;Text_JP "ギネマ@@@@"7	
 	Firmness VERY_HARD
 	Size 3,5

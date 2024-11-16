@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 	
 	Enigma_Berry
 
-	Text_EN "GARLIK@"7
+	Text_EN "GARIC@@"7
 	;Text_JP "ニニク@@@@"7	
 	Firmness HARD
 	Size 24,9

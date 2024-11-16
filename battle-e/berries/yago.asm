@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "BITMEL@"7
+	Text_EN "YAGO@@@"7
 	;Text_JP "ヤゴ@@@@@"7
 	Firmness VERY_HARD
 	Size 3,6

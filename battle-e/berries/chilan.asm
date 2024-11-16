@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 	
 	Enigma_Berry
 
-	Text_EN "CHILAN"7
+	Text_EN "CHILAN@"7
 	Firmness SOFT
 	Size 27,2
 	Yield_Range 1, 2

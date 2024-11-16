@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 	
 	Enigma_Berry
 
-	Text_EN "OCRA@@@"7
+	Text_EN "RAOK@@@"7
 	;Text_JP "クオ@@@@@"7	
 	Firmness HARD
 	Size 22,0

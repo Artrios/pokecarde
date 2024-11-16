@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 	
 	Enigma_Berry
 
-	Text_EN "TOPO@@@"7
+	Text_EN "POTOTO@"7
 	;Text_JP "トポ@@@@@"7	
 	Firmness VERY_HARD
 	Size 8,8

@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "PUMKIN"7
+	Text_EN "PUMKIN@"7
 	Firmness SUPER_HARD
 	Size 4,8
 	Yield_Range 2, 3

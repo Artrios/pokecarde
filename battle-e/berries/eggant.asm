@@ -2,7 +2,7 @@ INCLUDE "berries/macros.asm"
 
 	Enigma_Berry
 
-	Text_EN "EGGANT"7
+	Text_EN "EGGANT@"7
 	Firmness SOFT
 	Size 4,1
 	Yield_Range 2, 3
