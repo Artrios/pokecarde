@@ -26,8 +26,8 @@ DataPacket:
 ; Currently needs to be changed manually
 DataPointers:
     db $70,$01 ; DataStartRegirock
-    db $F7,$01 ; DataStartRegice
-    db $7E,$02 ; DataStartRegisteel
+    db $EF,$01 ; DataStartRegice
+    db $6E,$02 ; DataStartRegisteel
 
 ; Transfer data
 sub_02D2:
