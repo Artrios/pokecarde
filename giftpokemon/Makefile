@@ -40,7 +40,7 @@ build/00-G000-%.z80: build/00-G000-%.gbc
 	python3 ../scripts/stripgbc.py $< $@
 build/00-G000-%.vpk: build/00-G000-%.z80
 	../bin/nedc/v1.4/nevpk -c -i $< -o $@
-build/00-G000-%.raw: build/00-G000-%.vpk
+build/00-G000-%-01.raw: build/00-G000-%.vpk
 	../bin/nedc/v1.4/nedcmake -i $< -o $(subst -01.raw,,$@) -type 1 -region 1
 
 .PRECIOUS: build/00-G000-%.tx build/00-G000-%.o build/00-G000-%.gbc build/00-G000-%.z80 build/00-G000-%.vpk build/00-G000-%-01.raw

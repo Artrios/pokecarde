@@ -4,6 +4,19 @@ from asmquote import asmQuote
 
 region = sys.argv[3]
 
+valid_regions = [
+  'JP',
+  'EN',
+  'FR',
+  'IT',
+  'DE',
+  'ES',
+]
+
+if region not in valid_regions:
+    print("Invalid region")
+    sys.exit(1)
+
 out = open(sys.argv[2], 'w')
 
 with open(sys.argv[1], 'r') as f:

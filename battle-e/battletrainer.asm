@@ -13,7 +13,7 @@ BackdropPalettes: ; A04
 	INCLUDE "sprites/battletrainer3.pal"
 	INCLUDE "sprites/battletrainer4.pal"
 TrainerPalette: ; A6C
-	INCLUDE "sprites/battletrainer5.pal"
+	INCLUDE "sprites/trainersilhouette.pal"
 DoorPalette: ; A74
 	INCLUDE "sprites/trainerdoor.pal"
 

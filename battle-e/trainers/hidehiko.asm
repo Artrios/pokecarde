@@ -14,7 +14,7 @@ INCLUDE "trainers/macros.asm"
 	Loss_JP $123a, $0408, $0e1f, $062e, $102f, $0c06
 
 	Intro_EN MY, POKEMON, HAVE, NICE, COLOR, _EX
-	Win_EN THEY, HAVE, A, NICE, COLOR, HUH_
+	Win_EN THEY, HAVE, _A, NICE, COLOR, HUH_
 	Loss_EN IT, SEEMS, COLOR, WASN_T, ENOUGH, _ELIP
 
 	Pokemon SEAKING

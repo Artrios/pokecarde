@@ -20,6 +20,14 @@ include trainer_cards.mk
 # Include the card id to berry definition mapping
 include berry_cards.mk 
 
+# Capture all the pngs and label them to be converted to 4bpp
+GFX=$(addprefix build/, $(addsuffix .4bpp, $(basename $(wildcard sprites/trainers/*.png))))
+
+# Convert png and convert them
+build/sprites/trainers/%.4bpp: sprites/trainers/%.png
+	../bin/pret/gbagfx $< $@
+.PRECIOUS: build/sprites/trainers/%.4bpp
+
 build/prologue-%.tx: prologue.asm
 	python3 ../scripts/regionalize.py $< $@ $* $*
 build/prologue-%.o: build/prologue-%.tx
@@ -69,7 +77,7 @@ build/trainers/%.mev: build/trainers/%.bin
 
 build/card-%-EN.tx: card-%.asm
 	python3 ../scripts/ereadertext.py $< $@ EN
-build/card-%.o: build/card-%.tx build/prologue-EN.tx build/battletrainer-EN.tx build/enigmaberry-EN.tx
+build/card-%.o: build/card-%.tx build/prologue-EN.tx build/battletrainer-EN.tx build/enigmaberry-EN.tx $(GFX)
 	../bin/rgbds/v0.9.1/rgbasm -I build -M $@.d -o $@ $<
 build/card-%.gbc: build/card-%.o
 	../bin/rgbds/v0.9.1/rgblink -o $@ $<
@@ -85,7 +93,7 @@ build/card-%.300.bmp: build/card-%-01.raw
 .PRECIOUS: build/card-%-EN.tx build/card-%.o build/card-%.gbc build/card-%.z80 build/card-%.vpk build/card-%-01.raw build/card-%.300.bmp
 
 # Automatically create build dirs if missing
-BUILD_DIRS=build build/trainers build/berries
+BUILD_DIRS=build build/trainers build/berries build/sprites/trainers
 $(info $(shell mkdir -p $(BUILD_DIRS)))
 
 .PHONY: clean

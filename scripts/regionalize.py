@@ -6,6 +6,23 @@ from asmquote import asmQuoteBytes
 data_region = sys.argv[3] # determines region code
 text_region = sys.argv[4] # determines string translation
 
+valid_regions = [
+  'JP',
+  'EN',
+  'FR',
+  'IT',
+  'DE',
+  'ES',
+]
+
+if data_region not in valid_regions:
+    print("Invalid data region")
+    sys.exit(1)
+
+if text_region not in valid_regions:
+    print("Invalid text region")
+    sys.exit(1)
+
 out = open(sys.argv[2], 'w')
 
 with open(sys.argv[1], 'r') as f:

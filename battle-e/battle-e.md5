@@ -46,105 +46,6 @@ ebe7c17e61815351002744514c970e03  build/card-08-A043-EN.z80
 6a2f67a46600a396bf292d1dd157d128  build/card-08-A046-EN.z80
 90e3315b232fd956c495a880110a3203  build/card-08-A047-EN.z80
 18966453bdef23e566125aab79a4089a  build/card-08-A048-EN.z80
-# These aren't the target hashes however they are what is currently generated
-# and its best to lock them in to prevent accidental changes
-d7ad6232b25e68cd4876d5cf57c3acf3  build/card-08-B001-EN.z80
-e6e1b48782f513166eab4733f19cb4f4  build/card-08-B002-EN.z80
-4c81271ef9065939df58a21d4b49cd3b  build/card-08-B003-EN.z80
-9b72ca11427a5a7ac2a9ce96f58ed623  build/card-08-B004-EN.z80
-27db166e0a51761758c29ce97b111d3d  build/card-08-B005-EN.z80
-ef47d69cb9f688741b368ed6cb8f98f8  build/card-08-B006-EN.z80
-8bf7b604f845f7905d41230300c0a7c5  build/card-08-B007-EN.z80
-1010d64164b397c4900752c900c07881  build/card-08-B008-EN.z80
-acc0771e6b5dca12a70a5387ff77d18a  build/card-08-B009-EN.z80
-7728d76526c3da5c839c75bfcd7f5362  build/card-08-B010-EN.z80
-3a6ef266d4c6813f24663b4348a2a67d  build/card-08-B011-EN.z80
-11ed4505b87bf6674f36bdf268621671  build/card-08-B012-EN.z80
-93d2180254f4b5f16d5209fc703410b7  build/card-08-B013-EN.z80
-0446b04d129bbb1e197ba915d0e5539f  build/card-08-B014-EN.z80
-681dedcac5d0a90a0cad0582f3fbfca2  build/card-08-B015-EN.z80
-90d30a3001f1d560e8df41d9a560aff7  build/card-08-B016-EN.z80
-f42a8c60a54a8289f54777b1e071493c  build/card-08-B017-EN.z80
-690566583de3e4ec01fdbfc1bcfe7919  build/card-08-B018-EN.z80
-f2bd137213841cf538621a71a2cf2a42  build/card-08-B019-EN.z80
-81c1fd71149e6b8a94a0b99652e3de66  build/card-08-B020-EN.z80
-badc51150fd7e3a4f802501c30b52d6d  build/card-08-B021-EN.z80
-f4d2b6a5abdb34177680fbb77852060e  build/card-08-B022-EN.z80
-5be2c255337b15c9099ced8359166d37  build/card-08-B023-EN.z80
-e71ef07a0007c9f53443950ca05113b4  build/card-08-B024-EN.z80
-1199719010dd6bab1e4242ed4176486e  build/card-08-B025-EN.z80
-7df8f9ab1c979e6f7ceb4890aa5610eb  build/card-08-B026-EN.z80
-827f37620a4ffc5e04be9f3e1231b804  build/card-08-B027-EN.z80
-1db44eaafe7d49e9ea5ffe442d76a1e4  build/card-08-B028-EN.z80
-7e8dba435ad994ba45c86d65da7b21b2  build/card-08-B029-EN.z80
-e6c64e3d2d48cda45f11416ccee807f0  build/card-08-B030-EN.z80
-60fcefbfb1e9f7ba00bc82dc29deeb38  build/card-08-B031-EN.z80
-54f5d283591fbebb496f913a83c2509f  build/card-08-B032-EN.z80
-579d48d48f541d0b1d163fb728856a67  build/card-08-B033-EN.z80
-81c9fb849306b0c20a9652a7888826ed  build/card-08-B034-EN.z80
-75c5890effa504dbd141efa6d61c87cf  build/card-08-B035-EN.z80
-8e21de092c3deae04b4f26ef46f70fcd  build/card-08-B036-EN.z80
-d6e88d139c2056cc8185d6b4081a78d6  build/card-08-B037-EN.z80
-f9e4ad9de5a94446c53ce451889fa2db  build/card-08-B038-EN.z80
-60e6d087dd149dbeaa3b8046ae3b60b0  build/card-08-B039-EN.z80
-17773deb9f65f27493f6d02a376ed728  build/card-08-B040-EN.z80
-f47e7873b8117fd3e7cc71400892cf20  build/card-08-B041-EN.z80
-96237aafe7d26856ae893a2254e41bee  build/card-08-B042-EN.z80
-388579918d9cfce51d45a3b740e6bb51  build/card-08-B043-EN.z80
-75160a05b84d11236cd40f977d4fe137  build/card-08-B044-EN.z80
-2ab38eac576245c89b4e60a3b0293c7c  build/card-08-B045-EN.z80
-c74dd224177e9699c7d5ee261f6e5e16  build/card-08-B046-EN.z80
-492e290e195677f40dc2bfac9af6fac6  build/card-08-B047-EN.z80
-35e16ac88792d877a0caae4a9df00519  build/card-08-B048-EN.z80
-# These are the target hashes
-# 0cb7090e95b3e2bab4a7edda8340afb3  build/card-08-B001-EN.z80
-# 5d5ac407745dc5a07c2c14b4452a8f7d  build/card-08-B002-EN.z80
-# b1d151f13eefa461e1061a0d9a820e8b  build/card-08-B003-EN.z80
-# a46ae9a70fc1f7ce68223f2259e2138a  build/card-08-B004-EN.z80
-# bbbf7bead9ef08cc49cb28c635520245  build/card-08-B005-EN.z80
-# 2311f35658f20ff3167186d1f1246b71  build/card-08-B006-EN.z80
-# 8e8852aaf764ef39e5d946c7eb123df1  build/card-08-B007-EN.z80
-# f64ffcd2df285f5fa91884e0d6f68dc7  build/card-08-B008-EN.z80
-# 544c708e66d38f19293bc746709a2d8b  build/card-08-B009-EN.z80
-# 34ec44b9847e6eb9ab5f087f0e571001  build/card-08-B010-EN.z80
-# 0d36a4e9e75150fd2d27527c270dbbf6  build/card-08-B011-EN.z80
-# 6b1811a8d2984d8b4af1529e57d8fa74  build/card-08-B012-EN.z80
-# e2668cd24fe5ab1dff7f5ad8129931de  build/card-08-B013-EN.z80
-# 4fc47f78fec1f620b9a5443b5d28b365  build/card-08-B014-EN.z80
-# 22e5e54be9839ef7f5e89155a306fefd  build/card-08-B015-EN.z80
-# 0075f6bbe17a56bf3b12a56436af5c48  build/card-08-B016-EN.z80
-# b6eea411b314f9291598da35d7e92aaf  build/card-08-B017-EN.z80
-# 93ea127b7a585cc96bf1d39fb090ec22  build/card-08-B018-EN.z80
-# e1196d294b9d0dcb934bf3cdb520ff05  build/card-08-B019-EN.z80
-# f50d6017942c08dbc861491bf197ff20  build/card-08-B020-EN.z80
-# f03091d403c52fa016e0ec81acb419bf  build/card-08-B021-EN.z80
-# 0c69bfe3da9f91a904bec23ec18c8492  build/card-08-B022-EN.z80
-# 41e058e29c7af955e8d4efdccbe54643  build/card-08-B023-EN.z80
-# 4a717958fdb1b993f275c458ee45f12e  build/card-08-B024-EN.z80
-# 1d011bd4c79ffddb1764544d3e19d540  build/card-08-B025-EN.z80
-# 69d5e4ff0918309c20bfe5bfae39eeae  build/card-08-B026-EN.z80
-# 1f3d6c609be7e799c2c2077368726cb8  build/card-08-B027-EN.z80
-# 536775bc43d1309cf88d5700a39cdce0  build/card-08-B028-EN.z80
-# fc35ad266aa7f308066127fbc6cd70b0  build/card-08-B029-EN.z80
-# 290ad87c0bd748a7c96290301b9cf631  build/card-08-B030-EN.z80
-# 717fb008305f1f953379f66b4bb6b5f7  build/card-08-B031-EN.z80
-# b7fcb3fda87028d321e2dd715831f6b2  build/card-08-B032-EN.z80
-# 4a3f559cd753d197adc3a2d7958bfb62  build/card-08-B033-EN.z80
-# e5787cd11279c1eac25a61f2e4d0b350  build/card-08-B034-EN.z80
-# bcc46a437098ba4e35842f2f45e8b532  build/card-08-B035-EN.z80
-# 8985c0becda7d06394847fef54103083  build/card-08-B036-EN.z80
-# bfb09b7211e569ef68c688e15a5a7257  build/card-08-B037-EN.z80
-# d54ce05369f12307f6579506271d2695  build/card-08-B038-EN.z80
-# a34c93fa1ca12801afb937d6660138dc  build/card-08-B039-EN.z80
-# 1d6f4e7fc8313711d52e24766cfcf89a  build/card-08-B040-EN.z80
-# 3636cda3223c9d708436fdd908b1205e  build/card-08-B041-EN.z80
-# e14dca8454af6778e4fedcdc0d520820  build/card-08-B042-EN.z80
-# b52d537d85cb4ee8eeab3529ba25e243  build/card-08-B043-EN.z80
-# ec9226625dfa3462e2f98ea2b2fb0ac3  build/card-08-B044-EN.z80
-# 348eaad9876636ca1ee0035c6ff54338  build/card-08-B045-EN.z80
-# 3b791c94fef32cfb9547cd5a31a12db8  build/card-08-B046-EN.z80
-# fc2a0c0d8a95e88f863bcb3bcc03d9ed  build/card-08-B047-EN.z80
-# 9e7d06241742efd8e1669d0601e973dc  build/card-08-B048-EN.z80
 e53f77ada353ba5a557944f5d77d2359  build/card-08-K001-EN.z80
 d51697c6ffc805038cee7e9e9bbc1a66  build/card-08-K002-EN.z80
 579aeb95be4516a4ccdfc7abd6d5c32f  build/card-08-K003-EN.z80
@@ -155,25 +56,17 @@ d51697c6ffc805038cee7e9e9bbc1a66  build/card-08-K002-EN.z80
 a817a172740de53ef1b74771a76583e0  build/card-129-B002-EN.z80
 
 # These have not been validated. Instead they are just what was produced
-6c4d735d5f072b553f854634b164a2f4  build/card-08-N001-EN.z80
-93f50893d03b38158772b8671213edfe  build/card-08-N002-EN.z80
-8b685fa99e21759c2f483aadd8b794d6  build/card-08-N003-EN.z80
-79c109d6f7548a73dfb68c0a5ac0a166  build/card-08-N004-EN.z80
-1c25242a50ee906fb80d0cb973b50b50  build/card-08-N005-EN.z80
-94a1e2909d1ab99464bcfa0ce83dbfb9  build/card-08-N006-EN.z80
-f155b3b316c613ee22f0fb7ab5b89e6f  build/card-08-N007-EN.z80
-4471c31892623eb90d3fadd8b312b97a  build/card-08-N008-EN.z80
 4e0080679e3f78b21217cd838473b7f1  build/card-08-P001-EN.z80
 5184ece50173978395f8bae405cb3a14  build/card-08-P002-EN.z80
 5c4a90aa8d46458a22912f573d501db9  build/card-08-P003-EN.z80
 d7cc6591d1a221ec84ef3dde7b968c34  build/card-08-P004-EN.z80
-0f34226976ea1d6681319386335e1c24  build/card-08-P005-EN.z80
-e97df3ebe48b857c745fea4a89a6026f  build/card-08-P006-EN.z80
-a4e45dc6e46eba0097868888e3824a84  build/card-08-P007-EN.z80
-889bc41406abcf480436208e24367bb1  build/card-08-P008-EN.z80
-4fd2121eb3e8fb23f17802f749bd1f59  build/card-08-K007-EN.z80
-0b6174d7765c231de42442e11cf24771  build/card-08-K008-EN.z80
-05a8419e3303581d835b8714fa2ccf82  build/card-08-K009-EN.z80
-d4898552b60cb37aab979152750271e6  build/card-08-K010-EN.z80
-8ce8b14ecdf7abae3bef3e5f8d99b763  build/card-08-K011-EN.z80
-89b0491bbde34c1d4db209d549666461  build/card-08-K012-EN.z80
+1f93b5d77620fe2b72d37f726073f228  build/card-08-P005-EN.z80
+110d22206a372d7f98545f905a175ee7  build/card-08-P006-EN.z80
+1d7ef612857fd4586064e1336ee008fd  build/card-08-P007-EN.z80
+e7168221dc4b5ae9ace8835e23678282  build/card-08-P008-EN.z80
+b5970bd80a5695f7e5ab3374bdf3f242  build/card-08-K007-EN.z80
+6c5ecb2daee735e75600481350bcc129  build/card-08-K008-EN.z80
+53a2c44bf68ff617d13528663be63ba1  build/card-08-K009-EN.z80
+fd19e265033b9df2f366753e113324ea  build/card-08-K010-EN.z80
+7236bf3fc81244f4fa4dea877a86190a  build/card-08-K011-EN.z80
+1aeda38676af011d6fc2a0669760909a  build/card-08-K012-EN.z80
