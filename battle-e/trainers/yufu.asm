@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	Class COOLTRAINER_F
 	BT_Floor 5
-	Text_EN "STEPHANIE"8
+	Text_EN "MAXINE"8
 	Text_JP "ユフ"8
 	OT_ID 00000, 00000
 
