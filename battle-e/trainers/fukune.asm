@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 100
 	db HEX_MANIAC
 	BT_Floor 12
-	Text_EN "CHRISTINA"8
+	Text_EN "MABEL"8
 	Text_JP "フクネ"8
 	OT_ID 00000, 00000
 
