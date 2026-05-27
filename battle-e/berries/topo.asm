@@ -19,7 +19,7 @@ BerryPalette:
 	INCLUDE "sprites/berries/topo.pal"
 
 	Text_EN "It grows slowly, but abundantly."45
-	Text_EN "Its full of sweet and sour juice."45
+	Text_EN "It's full of sweet and sour juice."45
 	
 	;Text_JP "そだちは　おそいが　たくさんの　みが　つく。"45
 	;Text_JP "なかみは　あまずっぱい　しるで　いっぱい。"45	
