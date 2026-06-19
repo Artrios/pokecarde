@@ -5,7 +5,7 @@ INCLUDE "trainers/macros.asm"
 	BT_Level 0
 	db LADY
 	BT_Floor 0
-	Text_EN "ELIZABETH"8
+	Text_EN "CAMRYN"8
 	Text_JP "モエ"8
 	OT_ID 00000, 00000
 
